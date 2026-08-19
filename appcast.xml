@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Overhead</title>
+        <item>
+            <title>1.2</title>
+            <pubDate>Wed, 19 Aug 2026 16:29:41 -0700</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.zip" length="3188417" type="application/octet-stream" sparkle:edSignature="2A0x0Obydxj24550QBpa8/TEtlObLk/I7ZwMqrYVpSiz53u6bOUQcC3HDR3tBJ1EWaoqk6NsnRFDF95pYYrTBw=="/>
+        </item>
+    </channel>
+</rss>
