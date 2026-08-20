@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.2.3 — 2026-08-19
+- Sidebar filters and search now apply to the map as well — the list and map always show the same aircraft
+- Alerts and the logbook still watch all traffic, even while filtered
+
 ## 1.2.2 — 2026-08-19
 - Update notifications now show what's new in each release
 - Release history link in the About window and Help menu
