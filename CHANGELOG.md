@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.2.2 — 2026-08-19
+- Update notifications now show what's new in each release
+- Release history link in the About window and Help menu
+
 ## 1.2.1 — 2026-08-19
 - Fixed map controls covering the Apple Maps logo and Legal link
 

@@ -3,6 +3,23 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.2</title>
+            <pubDate>Wed, 19 Aug 2026 17:29:41 -0700</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.2</h3><ul>
+<li>Update notifications now show what's new in each release</li>
+<li>Release history link in the About window and Help menu</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.2.zip" length="3190732" type="application/octet-stream" sparkle:edSignature="toa0GLkoueTSgo44OBdZ7rXcbRRHZMHCCOWjI6LZzjHoU/71HRPWrQmOWx+WgLxrEboX79G2aqutZ5/l1Mx2Cg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-4.delta" sparkle:deltaFrom="4" length="187750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i6y1b0HcDWwVbYDe+SJCiVeHjEWc6svQn3SCzd9rd7VE66pZaOE2jpTIrKgIqbk9ZO3fll9VnJci3YxR3EpTBg=="/>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-3.delta" sparkle:deltaFrom="3" length="191394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="73+kF8OVsvU0Wg1Gg8slftqiSnkU4XHhJ8UmMu1Y8tOMbeF6OHg1Tqeem6lsuVBoZDCx2oTagwB2CKeIrvoDDQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.1</title>
             <pubDate>Wed, 19 Aug 2026 16:36:58 -0700</pubDate>
             <sparkle:version>4</sparkle:version>
