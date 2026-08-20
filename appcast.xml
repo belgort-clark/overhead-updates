@@ -12,6 +12,7 @@
             <sparkle:deltas>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead4-3.delta" sparkle:deltaFrom="3" length="140690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iPCTRmLStTbEmF41dh0YYqHp5AejlQ2HycUVjI4kLxuXycz/aTDps1ID9SRdtWjq96rDoA7ZHPD+n8Ennp0QBw=="/>
             </sparkle:deltas>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/belgort-clark/overhead-updates/main/Overhead-1.2.1.html</sparkle:releaseNotesLink>
         </item>
         <item>
             <title>1.2</title>
@@ -20,6 +21,7 @@
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
             <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.zip" length="3188417" type="application/octet-stream" sparkle:edSignature="2A0x0Obydxj24550QBpa8/TEtlObLk/I7ZwMqrYVpSiz53u6bOUQcC3HDR3tBJ1EWaoqk6NsnRFDF95pYYrTBw=="/>
+            <sparkle:releaseNotesLink>https://raw.githubusercontent.com/belgort-clark/overhead-updates/main/Overhead-1.2.html</sparkle:releaseNotesLink>
         </item>
     </channel>
 </rss>
