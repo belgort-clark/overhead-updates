@@ -13,7 +13,7 @@
 <li>Release history link in the About window and Help menu</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.2.zip" length="3190732" type="application/octet-stream" sparkle:edSignature="toa0GLkoueTSgo44OBdZ7rXcbRRHZMHCCOWjI6LZzjHoU/71HRPWrQmOWx+WgLxrEboX79G2aqutZ5/l1Mx2Cg=="/>
+            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.2.zip" length="3190735" type="application/octet-stream" sparkle:edSignature="hIzeZ+JV7wXIAvhMQCmg229HnvxPmkJ41e5myLlTrhs0rKS5xcHjbhRzd0u78Dt1nBzuKF5UwTnqCz44TWP1Ag=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-4.delta" sparkle:deltaFrom="4" length="187750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i6y1b0HcDWwVbYDe+SJCiVeHjEWc6svQn3SCzd9rd7VE66pZaOE2jpTIrKgIqbk9ZO3fll9VnJci3YxR3EpTBg=="/>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-3.delta" sparkle:deltaFrom="3" length="191394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="73+kF8OVsvU0Wg1Gg8slftqiSnkU4XHhJ8UmMu1Y8tOMbeF6OHg1Tqeem6lsuVBoZDCx2oTagwB2CKeIrvoDDQ=="/>
