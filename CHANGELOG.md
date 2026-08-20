@@ -1,5 +1,10 @@
 # Overhead release history
 
+## 1.2.5 — 2026-08-20
+- Overhead now updates itself from seeoverhead.app, its new home on the web
+- Release notes now live on the website, and open there from Help → Release History
+- Widget images on the website center properly on smaller screens
+
 ## 1.2.4 — 2026-08-19
 - New Style button on the map switches between Standard, Muted, Satellite, and Hybrid
 - Map controls are easier to see over bright satellite imagery

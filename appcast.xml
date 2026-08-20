@@ -3,6 +3,27 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.5</title>
+            <pubDate>Thu, 20 Aug 2026 12:17:37 -0700</pubDate>
+            <sparkle:version>8</sparkle:version>
+            <sparkle:shortVersionString>1.2.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.5</h3><ul>
+<li>Overhead now updates itself from seeoverhead.app, its new home on the web</li>
+<li>Release notes now live on the website, and open there from Help → Release History</li>
+<li>Widget images on the website center properly on smaller screens</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.5.zip" length="3377097" type="application/octet-stream" sparkle:edSignature="dwxsSW4GNfXJ6KQc/VaQs8+UTgoCtcimnm2jndQHQivr5iWeAlftMoro522w/4K2xrvsl8Ohlbm/eCbHt+/eCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead8-7.delta" sparkle:deltaFrom="7" length="22978" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DduLiiCwAntnZvZGYeRObNmjFa0eCLRUAgwnowe36YB4iUPT1lc4iBi7IXDIa19iYAl6lUx6iqTm/rAIxuuZCw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead8-6.delta" sparkle:deltaFrom="6" length="526850" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="77tPD8shYT1Wdy99QmP7HuqCNSgn7vSgl747GQJVB1Ntp72oGYqy+kvYCAOy6jRsQIJ3OWniZZ14kFkJFkemAA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead8-5.delta" sparkle:deltaFrom="5" length="546918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cd3PK1aEYy352QcG87MLggrmlDYoElkgm77IwdYY1eyXxrHgjxc9QlyzqZOBOPKlVaeO7rn3OgYuvYnRRg9vBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead8-4.delta" sparkle:deltaFrom="4" length="548258" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="m09P3Ol2j3+9bFd7HAOyAUepb8hwjykx3EPr9JDZruiC0xyNEsvQPOZrJ7ljMRpZUk7+FFPHT6T2y+F3RI+sBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead8-3.delta" sparkle:deltaFrom="3" length="552734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vQH0kQ8RCWoCWkRUPlq4DPOShPnAvPctNJS5278nrD/U0PFR3R2PF4z/x1OrYFbLmdfK7BGS9g5xWgl/JEM7Cw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.4</title>
             <pubDate>Wed, 19 Aug 2026 18:05:13 -0700</pubDate>
             <sparkle:version>7</sparkle:version>
