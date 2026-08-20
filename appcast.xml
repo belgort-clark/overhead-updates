@@ -13,12 +13,12 @@
 <li>Map controls are easier to see over bright satellite imagery</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.4.zip" length="3211383" type="application/octet-stream" sparkle:edSignature="eYTxkN6U5Z9QWn6KLtNhAkmmwjYE+zmPU3t6hlcT6jAFNcsAbWawv6v/vvdGRx1ukO/u3IrAvV/6qSpf0Kr1AA=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.4.zip" length="3211383" type="application/octet-stream" sparkle:edSignature="eYTxkN6U5Z9QWn6KLtNhAkmmwjYE+zmPU3t6hlcT6jAFNcsAbWawv6v/vvdGRx1ukO/u3IrAvV/6qSpf0Kr1AA=="/>
             <sparkle:deltas>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-6.delta" sparkle:deltaFrom="6" length="204918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K492U22rqJtvg3morVq6ZS8Nc6X6aOvnznkP/owWMEdjJDdrqs3sj0zYM4LIKLIkZo4YtO5uPVuM6ZgTcx+TCg=="/>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-5.delta" sparkle:deltaFrom="5" length="258186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DQJmN/khqQ3m/SmDNY+2qILm+A9NM93ID1HRsG3D59+sXvOH8ibRaYlsjVdtUCPm+jBum8cNkSLGB3hnOQsVAg=="/>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-4.delta" sparkle:deltaFrom="4" length="272214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9/6TsuTcxSN6Mz1bvQ0Mmuop6eHNvDPD/T9rod9b2aYZiJTLuqrazbKpYVD7CfiH94lTgPyVkPqvimnu2vMDw=="/>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-3.delta" sparkle:deltaFrom="3" length="277398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uoTxZOjFl/FV/wQbIi8NIeRtJeyCAika4cjNBXJC9ONA5z2E0n23h0w2wchK6YLY34f/utOxfjN9sk2Ehx5vAg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead7-6.delta" sparkle:deltaFrom="6" length="204918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K492U22rqJtvg3morVq6ZS8Nc6X6aOvnznkP/owWMEdjJDdrqs3sj0zYM4LIKLIkZo4YtO5uPVuM6ZgTcx+TCg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead7-5.delta" sparkle:deltaFrom="5" length="258186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DQJmN/khqQ3m/SmDNY+2qILm+A9NM93ID1HRsG3D59+sXvOH8ibRaYlsjVdtUCPm+jBum8cNkSLGB3hnOQsVAg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead7-4.delta" sparkle:deltaFrom="4" length="272214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9/6TsuTcxSN6Mz1bvQ0Mmuop6eHNvDPD/T9rod9b2aYZiJTLuqrazbKpYVD7CfiH94lTgPyVkPqvimnu2vMDw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead7-3.delta" sparkle:deltaFrom="3" length="277398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uoTxZOjFl/FV/wQbIi8NIeRtJeyCAika4cjNBXJC9ONA5z2E0n23h0w2wchK6YLY34f/utOxfjN9sk2Ehx5vAg=="/>
             </sparkle:deltas>
         </item>
         <item>
@@ -32,7 +32,7 @@
 <li>Alerts and the logbook still watch all traffic, even while filtered</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.3.zip" length="3191867" type="application/octet-stream" sparkle:edSignature="orpm9HYnfxzRUjNAG3hdkInlkx6VH994RnRV96aVKwK/EqoYpnmdwQYokfX7JSZBSPbN3kZKF1R9D1eQwnG6Bw=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.3.zip" length="3191867" type="application/octet-stream" sparkle:edSignature="orpm9HYnfxzRUjNAG3hdkInlkx6VH994RnRV96aVKwK/EqoYpnmdwQYokfX7JSZBSPbN3kZKF1R9D1eQwnG6Bw=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead6-5.delta" sparkle:deltaFrom="5" length="212182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZjQKAV7FigvTmoH2E9dezMZQ0WDq57XPwK7hN8zJFSYx8ym8Ft8vwhF3yTCxMdap7oH3GjvfhFdG6LHx3XTeAw=="/>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead6-4.delta" sparkle:deltaFrom="4" length="241946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nqTmJIp+pRhXBwpB0+Njt1qPZuCIoUaVp1w67j+uBOi91l/PVsiQnN0lJ7jWbp1xBSJj8E3pd7CKKHNPBb3qBg=="/>
@@ -50,7 +50,7 @@
 <li>Release history link in the About window and Help menu</li>
 </ul>
 ]]></description>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.2.zip" length="3190735" type="application/octet-stream" sparkle:edSignature="hIzeZ+JV7wXIAvhMQCmg229HnvxPmkJ41e5myLlTrhs0rKS5xcHjbhRzd0u78Dt1nBzuKF5UwTnqCz44TWP1Ag=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.2.zip" length="3190735" type="application/octet-stream" sparkle:edSignature="hIzeZ+JV7wXIAvhMQCmg229HnvxPmkJ41e5myLlTrhs0rKS5xcHjbhRzd0u78Dt1nBzuKF5UwTnqCz44TWP1Ag=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-4.delta" sparkle:deltaFrom="4" length="187750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i6y1b0HcDWwVbYDe+SJCiVeHjEWc6svQn3SCzd9rd7VE66pZaOE2jpTIrKgIqbk9ZO3fll9VnJci3YxR3EpTBg=="/>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-3.delta" sparkle:deltaFrom="3" length="191394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="73+kF8OVsvU0Wg1Gg8slftqiSnkU4XHhJ8UmMu1Y8tOMbeF6OHg1Tqeem6lsuVBoZDCx2oTagwB2CKeIrvoDDQ=="/>
@@ -62,7 +62,7 @@
             <sparkle:version>4</sparkle:version>
             <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.1.zip" length="3188852" type="application/octet-stream" sparkle:edSignature="KTdDFSjni8C4wzjf2kh+P4hQLMFYvEXeyICQlJFsn6hHxlf5yYWgTRs0Pmcc0jIFAC31LQi8dwxTK6F9UczrDA=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.1.zip" length="3188852" type="application/octet-stream" sparkle:edSignature="KTdDFSjni8C4wzjf2kh+P4hQLMFYvEXeyICQlJFsn6hHxlf5yYWgTRs0Pmcc0jIFAC31LQi8dwxTK6F9UczrDA=="/>
             <sparkle:deltas>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead4-3.delta" sparkle:deltaFrom="3" length="140690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iPCTRmLStTbEmF41dh0YYqHp5AejlQ2HycUVjI4kLxuXycz/aTDps1ID9SRdtWjq96rDoA7ZHPD+n8Ennp0QBw=="/>
             </sparkle:deltas>
@@ -77,7 +77,7 @@
             <sparkle:version>3</sparkle:version>
             <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.zip" length="3188417" type="application/octet-stream" sparkle:edSignature="2A0x0Obydxj24550QBpa8/TEtlObLk/I7ZwMqrYVpSiz53u6bOUQcC3HDR3tBJ1EWaoqk6NsnRFDF95pYYrTBw=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.zip" length="3188417" type="application/octet-stream" sparkle:edSignature="2A0x0Obydxj24550QBpa8/TEtlObLk/I7ZwMqrYVpSiz53u6bOUQcC3HDR3tBJ1EWaoqk6NsnRFDF95pYYrTBw=="/>
             <description><![CDATA[<h3>Overhead 1.2</h3><ul>
 <li>Automatic updates: Overhead now updates itself (Overhead menu → Check for Updates…)</li>
 <li>ATC Audio: listen to live air-traffic-control streams from the toolbar</li>
