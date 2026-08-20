@@ -13,7 +13,7 @@
 <li>Map controls are easier to see over bright satellite imagery</li>
 </ul>
 ]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.4.zip" length="3211383" type="application/octet-stream" sparkle:edSignature="eYTxkN6U5Z9QWn6KLtNhAkmmwjYE+zmPU3t6hlcT6jAFNcsAbWawv6v/vvdGRx1ukO/u3IrAvV/6qSpf0Kr1AA=="/>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.4.zip" length="3377140" type="application/octet-stream" sparkle:edSignature="C3+07mu6qZma2BU6yL9iv9yPWvFovToLY4skqw7w7rjMvvFh3cgtUE1g0zAMvYadYKNSnyLwbIVmBPMDH8r2DQ=="/>
             <sparkle:deltas>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead7-6.delta" sparkle:deltaFrom="6" length="204918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K492U22rqJtvg3morVq6ZS8Nc6X6aOvnznkP/owWMEdjJDdrqs3sj0zYM4LIKLIkZo4YtO5uPVuM6ZgTcx+TCg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead7-5.delta" sparkle:deltaFrom="5" length="258186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DQJmN/khqQ3m/SmDNY+2qILm+A9NM93ID1HRsG3D59+sXvOH8ibRaYlsjVdtUCPm+jBum8cNkSLGB3hnOQsVAg=="/>
