@@ -1,5 +1,10 @@
 # Overhead release history
 
+## 1.2.6 — 2026-08-20
+- Airline flights now show their route up front — origin, destination, and city names
+- A progress bar shows how far along the flight is and how far it has left to go
+- Photo credits are now readable, and clicking a photo opens it on Planespotters
+
 ## 1.2.5 — 2026-08-20
 - Overhead now updates itself from seeoverhead.app, its new home on the web
 - Release notes now live on the website, and open there from Help → Release History

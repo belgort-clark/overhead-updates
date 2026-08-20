@@ -3,6 +3,27 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.6</title>
+            <pubDate>Thu, 20 Aug 2026 16:41:02 -0700</pubDate>
+            <sparkle:version>9</sparkle:version>
+            <sparkle:shortVersionString>1.2.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.6</h3><ul>
+<li>Airline flights now show their route up front — origin, destination, and city names</li>
+<li>A progress bar shows how far along the flight is and how far it has left to go</li>
+<li>Photo credits are now readable, and clicking a photo opens it on Planespotters</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.6.zip" length="3421003" type="application/octet-stream" sparkle:edSignature="wqaYVaULlILzOQOzOiFqhXxL2+jkcspKbDQdxoXOaAAubOuzCj0K/0OFJUYVAIsTR2wU+sQUqyrKZv7i/sTFAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead9-8.delta" sparkle:deltaFrom="8" length="370038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nnltjsjYIUlVsuqqm1FZeLjQ/HUwGofwEROZa+12LenLPC4S6UvvlFQqXtexfDJxlNW4jXrDoNseMlXXa6Y4Ag=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead9-7.delta" sparkle:deltaFrom="7" length="374714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yJvyaAHKA6QMpRH+x+MBUwm/MRCCMLILEq4Kf8iYEdJDGrF6XQqf0scizPaofTjSZG3Isg9uoznA6UAJRpeICw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead9-6.delta" sparkle:deltaFrom="6" length="598906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tD1MGJvvvWA/7YbW3oVdHYMdwWXcvb0ttln4p5ce92TDteuxpmHmDEMcW9xFTSMc6s7464bcJIMbe/vVEKTfAw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead9-5.delta" sparkle:deltaFrom="5" length="617426" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DJbeyaJ1R84pX3xHQUOB/TY/jmLAH792r7/PGzB44gjxXpGOqiqb5jENLHZXa9KfzzjonkQ1Jh+5kKygnNTvAg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead9-4.delta" sparkle:deltaFrom="4" length="621530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="RY0yXyLCdVmfXbMNm7lfa1QQn/4nqY0uUIc1rjqUaM1bytqFU0dMvJNEjMgpDT0nY6aA389PRrcd3QfpzRlSCQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.5</title>
             <pubDate>Thu, 20 Aug 2026 12:17:37 -0700</pubDate>
             <sparkle:version>8</sparkle:version>
@@ -89,29 +110,6 @@
             </sparkle:deltas>
             <description><![CDATA[<h3>Overhead 1.2.1</h3><ul>
 <li>Fixed map controls covering the Apple Maps logo and Legal link</li>
-</ul>
-]]></description>
-        </item>
-        <item>
-            <title>1.2</title>
-            <pubDate>Wed, 19 Aug 2026 16:29:41 -0700</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.zip" length="3188417" type="application/octet-stream" sparkle:edSignature="2A0x0Obydxj24550QBpa8/TEtlObLk/I7ZwMqrYVpSiz53u6bOUQcC3HDR3tBJ1EWaoqk6NsnRFDF95pYYrTBw=="/>
-            <description><![CDATA[<h3>Overhead 1.2</h3><ul>
-<li>Automatic updates: Overhead now updates itself (Overhead menu → Check for Updates…)</li>
-<li>ATC Audio: listen to live air-traffic-control streams from the toolbar</li>
-<li>Aircraft photos, flight routes, and operator names in the detail card</li>
-<li>"Spot it" guidance: which way to look and how high, for every aircraft</li>
-<li>Full aircraft make/model names throughout (Boeing 737-900 instead of B739)</li>
-<li>Flight trails with adjustable length and width</li>
-<li>Altitude color-coding with an on-map key</li>
-<li>Sidebar filters: emergency, military, helicopters, airliners, GA, low altitude — in any combination</li>
-<li>Alerts: fly-over prediction, military/helicopter/low-altitude/watchlist rules, alert range, launch at login</li>
-<li>Logbook: daily sighting counts, busiest hours, and newly spotted types</li>
-<li>Widget accent color; distance units (mi/nm/km); text size and accessibility options</li>
-<li>Redesigned Settings with General, Map, Alerts, Accessibility, and Privacy panes</li>
 </ul>
 ]]></description>
         </item>
