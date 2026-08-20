@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.2.4 — 2026-08-19
+- New Style button on the map switches between Standard, Muted, Satellite, and Hybrid
+- Map controls are easier to see over bright satellite imagery
+
 ## 1.2.3 — 2026-08-19
 - Sidebar filters and search now apply to the map as well — the list and map always show the same aircraft
 - Alerts and the logbook still watch all traffic, even while filtered

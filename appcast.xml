@@ -3,6 +3,25 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.4</title>
+            <pubDate>Wed, 19 Aug 2026 18:05:13 -0700</pubDate>
+            <sparkle:version>7</sparkle:version>
+            <sparkle:shortVersionString>1.2.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.4</h3><ul>
+<li>New Style button on the map switches between Standard, Muted, Satellite, and Hybrid</li>
+<li>Map controls are easier to see over bright satellite imagery</li>
+</ul>
+]]></description>
+            <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead-1.2.4.zip" length="3211383" type="application/octet-stream" sparkle:edSignature="eYTxkN6U5Z9QWn6KLtNhAkmmwjYE+zmPU3t6hlcT6jAFNcsAbWawv6v/vvdGRx1ukO/u3IrAvV/6qSpf0Kr1AA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-6.delta" sparkle:deltaFrom="6" length="204918" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="K492U22rqJtvg3morVq6ZS8Nc6X6aOvnznkP/owWMEdjJDdrqs3sj0zYM4LIKLIkZo4YtO5uPVuM6ZgTcx+TCg=="/>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-5.delta" sparkle:deltaFrom="5" length="258186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DQJmN/khqQ3m/SmDNY+2qILm+A9NM93ID1HRsG3D59+sXvOH8ibRaYlsjVdtUCPm+jBum8cNkSLGB3hnOQsVAg=="/>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-4.delta" sparkle:deltaFrom="4" length="272214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9/6TsuTcxSN6Mz1bvQ0Mmuop6eHNvDPD/T9rod9b2aYZiJTLuqrazbKpYVD7CfiH94lTgPyVkPqvimnu2vMDw=="/>
+                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead7-3.delta" sparkle:deltaFrom="3" length="277398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uoTxZOjFl/FV/wQbIi8NIeRtJeyCAika4cjNBXJC9ONA5z2E0n23h0w2wchK6YLY34f/utOxfjN9sk2Ehx5vAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.3</title>
             <pubDate>Wed, 19 Aug 2026 17:39:54 -0700</pubDate>
             <sparkle:version>6</sparkle:version>
