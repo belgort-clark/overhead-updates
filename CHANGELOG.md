@@ -1,5 +1,18 @@
 # Overhead release history
 
+## 1.2.8 — 2026-08-21
+- The nearest aircraft can now live in your menu bar, with the six closest a click away
+- Choose how much the menu bar shows: callsign and distance, distance only, or just the icon
+- First sightings: Overhead learns what normally flies over you, then tells you when something new does
+- Sky conditions on the map, so you know whether anything up there is actually visible
+- Watch Here follows any spot on the map instead of home, for travelling or watching someone else's airport
+- ATC Audio lists the airports nearest you and walks you through adding one of their feeds
+- Saved ATC feeds can be exported and shared, and a downloaded .pls file opens straight into Overhead
+- Launch at login moved to Settings → General, where you would look for it
+- The alert watchlist takes one code at a time, each becoming a pill you can remove
+- Alert range is now a slider, shown in your own distance units
+- Fixed: the aircraft list could stay empty when a data source was slow to answer
+
 ## 1.2.7 — 2026-08-21
 - Follow a flight by number and get a notification when it takes off and when it lands
 - Flight numbers are checked as you add them, so a typo doesn't sit there waiting forever
@@ -11,7 +24,7 @@
 - Flight progress no longer reads 100% while an aircraft is still a couple of minutes out
 
 ## 1.2.6 — 2026-08-20
-- Airline flights now show their route up front — origin, destination, and city names
+- Airline flights now show their route up front: origin, destination, and city names
 - A progress bar shows how far along the flight is and how far it has left to go
 - Photo credits are now readable, and clicking a photo opens it on Planespotters
 
@@ -25,7 +38,7 @@
 - Map controls are easier to see over bright satellite imagery
 
 ## 1.2.3 — 2026-08-19
-- Sidebar filters and search now apply to the map as well — the list and map always show the same aircraft
+- Sidebar filters and search now apply to the map as well, so the list and map always show the same aircraft
 - Alerts and the logbook still watch all traffic, even while filtered
 
 ## 1.2.2 — 2026-08-19
@@ -43,7 +56,7 @@
 - Full aircraft make/model names throughout (Boeing 737-900 instead of B739)
 - Flight trails with adjustable length and width
 - Altitude color-coding with an on-map key
-- Sidebar filters: emergency, military, helicopters, airliners, GA, low altitude — in any combination
+- Sidebar filters: emergency, military, helicopters, airliners, GA, low altitude, in any combination
 - Alerts: fly-over prediction, military/helicopter/low-altitude/watchlist rules, alert range, launch at login
 - Logbook: daily sighting counts, busiest hours, and newly spotted types
 - Widget accent color; distance units (mi/nm/km); text size and accessibility options
