@@ -1,5 +1,15 @@
 # Overhead release history
 
+## 1.2.7 — 2026-08-21
+- Follow a flight by number and get a notification when it takes off and when it lands
+- Flight numbers are checked as you add them, so a typo doesn't sit there waiting forever
+- Airline flights now show an estimated landing time, in your own time zone
+- Keep several aircraft on screen at once: pin cards and they stack, folded down to the essentials
+- With two cards up, a line between them shows how far apart the aircraft are and whether they're converging
+- Aircraft cards can be dragged anywhere on the map, and no longer sit under the zoom controls
+- Routes that clearly belong to a different leg of the day are now hidden rather than shown as fact
+- Flight progress no longer reads 100% while an aircraft is still a couple of minutes out
+
 ## 1.2.6 — 2026-08-20
 - Airline flights now show their route up front — origin, destination, and city names
 - A progress bar shows how far along the flight is and how far it has left to go

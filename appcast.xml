@@ -3,6 +3,32 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.7</title>
+            <pubDate>Fri, 21 Aug 2026 08:00:35 -0700</pubDate>
+            <sparkle:version>10</sparkle:version>
+            <sparkle:shortVersionString>1.2.7</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.7</h3><ul>
+<li>Follow a flight by number and get a notification when it takes off and when it lands</li>
+<li>Flight numbers are checked as you add them, so a typo doesn't sit there waiting forever</li>
+<li>Airline flights now show an estimated landing time, in your own time zone</li>
+<li>Keep several aircraft on screen at once: pin cards and they stack, folded down to the essentials</li>
+<li>With two cards up, a line between them shows how far apart the aircraft are and whether they're converging</li>
+<li>Aircraft cards can be dragged anywhere on the map, and no longer sit under the zoom controls</li>
+<li>Routes that clearly belong to a different leg of the day are now hidden rather than shown as fact</li>
+<li>Flight progress no longer reads 100% while an aircraft is still a couple of minutes out</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.7.zip" length="3807358" type="application/octet-stream" sparkle:edSignature="cGG+R8Js7O8Ix0o2a1uLvI6+9/sbZRefLd77MjfGY2W/14QKV0H8/MEUxwO2il1lHz84cgxkyeH+vyAgU2VRCA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead10-9.delta" sparkle:deltaFrom="9" length="816826" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2+I13zhjYbjKMYNckMX1xo1F0LSjMGgwABTL/LskbmvBiUqXpPfq6NL0b2L4nSwkwN0yI3U2k3dmBs+zZhFWBA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead10-8.delta" sparkle:deltaFrom="8" length="854870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Son/vHV1WUO8nZmY7t7g3WzoYcM+KAupPfOWpWE/8rPEvclZVCZYDb98WxEjbpsFf0ctaTbMMLkLuQnncMVvDA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead10-7.delta" sparkle:deltaFrom="7" length="854746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TUGuyy2uFyBEZJasYCoA5FdTxHQ3eB+zeGhjNVm88tZwG6OMDJVkRNAvy6r4acX79xicJztBsz5dmqEKGyKqDg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead10-6.delta" sparkle:deltaFrom="6" length="1019314" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="O27iEeUw2aEyP3N9QOP8heD0P9g3Z1UHNyzNlmQybCiADDrWvzHYow94J6GZMD5MFz/1vC2/8UDLs/EhluY9Cg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead10-5.delta" sparkle:deltaFrom="5" length="1023770" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="1sA2FYvFbOlHOCFE17EhI7yrd4OLYMPQA/jq3KfHFEoyh2lM9UkztnzbrR19o0SzMTt4pnhWpQI3qztPfbTPAA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.6</title>
             <pubDate>Thu, 20 Aug 2026 16:41:02 -0700</pubDate>
             <sparkle:version>9</sparkle:version>
@@ -97,21 +123,6 @@
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-4.delta" sparkle:deltaFrom="4" length="187750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="i6y1b0HcDWwVbYDe+SJCiVeHjEWc6svQn3SCzd9rd7VE66pZaOE2jpTIrKgIqbk9ZO3fll9VnJci3YxR3EpTBg=="/>
                 <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead5-3.delta" sparkle:deltaFrom="3" length="191394" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="73+kF8OVsvU0Wg1Gg8slftqiSnkU4XHhJ8UmMu1Y8tOMbeF6OHg1Tqeem6lsuVBoZDCx2oTagwB2CKeIrvoDDQ=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.1</title>
-            <pubDate>Wed, 19 Aug 2026 16:36:58 -0700</pubDate>
-            <sparkle:version>4</sparkle:version>
-            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.1.zip" length="3188852" type="application/octet-stream" sparkle:edSignature="KTdDFSjni8C4wzjf2kh+P4hQLMFYvEXeyICQlJFsn6hHxlf5yYWgTRs0Pmcc0jIFAC31LQi8dwxTK6F9UczrDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead4-3.delta" sparkle:deltaFrom="3" length="140690" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="iPCTRmLStTbEmF41dh0YYqHp5AejlQ2HycUVjI4kLxuXycz/aTDps1ID9SRdtWjq96rDoA7ZHPD+n8Ennp0QBw=="/>
-            </sparkle:deltas>
-            <description><![CDATA[<h3>Overhead 1.2.1</h3><ul>
-<li>Fixed map controls covering the Apple Maps logo and Legal link</li>
-</ul>
-]]></description>
         </item>
     </channel>
 </rss>
