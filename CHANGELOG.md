@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.2.9 — 2026-08-21
+- The toolbar now shows icons only, with a setting in General to put the names back
+
 ## 1.2.8 — 2026-08-21
 - The nearest aircraft can now live in your menu bar, with the six closest a click away
 - Choose how much the menu bar shows: callsign and distance, distance only, or just the icon

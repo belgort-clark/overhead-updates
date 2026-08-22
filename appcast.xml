@@ -3,6 +3,25 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.2.9</title>
+            <pubDate>Fri, 21 Aug 2026 18:55:35 -0700</pubDate>
+            <sparkle:version>12</sparkle:version>
+            <sparkle:shortVersionString>1.2.9</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.2.9</h3><ul>
+<li>The toolbar now shows icons only, with a setting in General to put the names back</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.9.zip" length="4323540" type="application/octet-stream" sparkle:edSignature="TA0pp7wxbZzKgaD7VCtWGPWoJCqYv3ixex6IsCk3+XXEkQXqp9COiUkFGGAyfzndWacx2zekp3duxBBtJEYhDg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead12-11.delta" sparkle:deltaFrom="11" length="371906" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YHDBItLCArYRH2tWZnqMuiW9SrG5cTzbHlQ4fSN05J07RW014HP1BO+975ohmgU/ajAXqVqfmEFaFJgestW4Ag=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead12-10.delta" sparkle:deltaFrom="10" length="1030726" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Pk3VUNnpyI4z9pDdIQ8rR1MmwDf9qrqPJhqL7oP5t/yaTstKd7AN89K3U2XK5iuwDvicX5SejTrqnjQrUdwcCw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead12-9.delta" sparkle:deltaFrom="9" length="1297266" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="72ayAyhxqbY0hNqO0/PtFlmHqrOHfFtOgjET5Io0Y90thgW5eeqQ4RDHVtQGwItU7L7A2PlaaekrGwXvepdDAQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead12-8.delta" sparkle:deltaFrom="8" length="1340634" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="t4cR1EUpZgcQMNhfEV36eB5q/dMxEPudM7KHv4pggiK7d6LoW8u0DOwHhtufWZiQ80YPiKGzA9gZv3alzuerBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead12-7.delta" sparkle:deltaFrom="7" length="1338110" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tblILQA1SgGgpwCWK+TAdZuwf7CgM542dS2MSCUvgJhm5ZIQWUHQnWMWeSUyd6TwhI2ikp1yNr8WsZGBEwJcBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.2.8</title>
             <pubDate>Fri, 21 Aug 2026 13:16:40 -0700</pubDate>
             <sparkle:version>11</sparkle:version>
@@ -116,24 +135,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead7-5.delta" sparkle:deltaFrom="5" length="258186" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="DQJmN/khqQ3m/SmDNY+2qILm+A9NM93ID1HRsG3D59+sXvOH8ibRaYlsjVdtUCPm+jBum8cNkSLGB3hnOQsVAg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead7-4.delta" sparkle:deltaFrom="4" length="272214" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="d9/6TsuTcxSN6Mz1bvQ0Mmuop6eHNvDPD/T9rod9b2aYZiJTLuqrazbKpYVD7CfiH94lTgPyVkPqvimnu2vMDw=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead7-3.delta" sparkle:deltaFrom="3" length="277398" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uoTxZOjFl/FV/wQbIi8NIeRtJeyCAika4cjNBXJC9ONA5z2E0n23h0w2wchK6YLY34f/utOxfjN9sk2Ehx5vAg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.2.3</title>
-            <pubDate>Wed, 19 Aug 2026 17:39:54 -0700</pubDate>
-            <sparkle:version>6</sparkle:version>
-            <sparkle:shortVersionString>1.2.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.2.3</h3><ul>
-<li>Sidebar filters and search now apply to the map as well — the list and map always show the same aircraft</li>
-<li>Alerts and the logbook still watch all traffic, even while filtered</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.2.3.zip" length="3191867" type="application/octet-stream" sparkle:edSignature="orpm9HYnfxzRUjNAG3hdkInlkx6VH994RnRV96aVKwK/EqoYpnmdwQYokfX7JSZBSPbN3kZKF1R9D1eQwnG6Bw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead6-5.delta" sparkle:deltaFrom="5" length="212182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZjQKAV7FigvTmoH2E9dezMZQ0WDq57XPwK7hN8zJFSYx8ym8Ft8vwhF3yTCxMdap7oH3GjvfhFdG6LHx3XTeAw=="/>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead6-4.delta" sparkle:deltaFrom="4" length="241946" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nqTmJIp+pRhXBwpB0+Njt1qPZuCIoUaVp1w67j+uBOi91l/PVsiQnN0lJ7jWbp1xBSJj8E3pd7CKKHNPBb3qBg=="/>
-                <enclosure url="https://github.com/belgort-clark/overhead-updates/releases/download/updates/Overhead6-3.delta" sparkle:deltaFrom="3" length="245998" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kqL7WH+jZTDSjMkKKg+PMCrVe26tipjE91dGun+rBpylCl4EFvO/1FZmEFutTqb0k+IMUF5D5yIBLjFR2rjEBg=="/>
             </sparkle:deltas>
         </item>
     </channel>
