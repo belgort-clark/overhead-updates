@@ -1,5 +1,18 @@
 # Overhead release history
 
+## 1.3.0 — 2026-08-22
+- Selecting an airline flight now draws its route on the map, from the aircraft to its destination
+- The Legend explains the difference between a trail (where an aircraft has been) and a route (where it is going)
+- Turn routes off with View > Show Flight Routes
+- ATC feeds can be renamed, or pointed at a new address, without removing and adding them again
+- The radar in the About window now sweeps the way a radar does, instead of pulsing
+- Fixed: quitting could lose up to a minute of logbook entries
+- Fixed: watching another spot no longer files that spot's traffic in your logbook
+- Fixed: the sky conditions tooltip never showed when the reading was taken
+- Fixed: the menu bar could count more aircraft than it listed while a filter was on
+- Fixed: a followed flight could be checked twice at once when a data source was slow
+- Fixed: aircraft parked at an airport near you no longer count as flying overhead in the menu bar or the widgets
+
 ## 1.2.9 — 2026-08-21
 - The toolbar now shows icons only, with a setting in General to put the names back
 
