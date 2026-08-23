@@ -1,5 +1,14 @@
 # Overhead release history
 
+## 1.3.1 — 2026-08-22
+- Aircraft cards now show the year the airframe was built, and how old it is
+- The sidebar's Low Altitude filter grows into a full set of height bands, on the same boundaries as the map's altitude key
+- Height bands narrow the other filters rather than widening them, so Airliners plus Above 30,000 ft means high airliners
+- The app icon now shows contacts on the scope, not just the rings
+- The About window's radar paints those same contacts as the beam reaches them
+- The radar now sits in the middle of the app icon, instead of a little low
+- The aircraft is shaded and casts a shadow on the scope, so it reads as an object rather than a cut-out
+
 ## 1.3.0 — 2026-08-22
 - Selecting an airline flight now draws its route on the map, from the aircraft to its destination
 - The Legend explains the difference between a trail (where an aircraft has been) and a route (where it is going)
