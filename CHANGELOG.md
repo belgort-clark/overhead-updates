@@ -1,5 +1,22 @@
 # Overhead release history
 
+## 1.3.2 — 2026-08-23
+- The logbook has a gallery: every aircraft that has flown over, with a photo of that exact airframe wherever one exists
+- Open any of them for its own page: when you first saw it, how many days it has been over, its closest pass, and how old it is
+- Sort the gallery by recent, most seen, closest, or oldest airframe
+- Search the gallery by registration, type or operator: "alaska", "737", "N236"
+- Arrow keys move through the gallery, Space shows the photo in Quick Look, and Return opens the aircraft
+- Right-click any aircraft to copy its registration or photo, or open the photo on Planespotters
+- Drag an aircraft out of the gallery into Notes, Mail or the Finder
+- File > Export Logbook writes the whole collection as a CSV that opens in Numbers
+- Overhead now has Shortcuts actions: get the aircraft overhead, get sky conditions, or follow a flight
+- Aircraft come back as real items, so a shortcut can use one flight's altitude, distance or age on its own
+- Ask Siri or Spotlight what's flying over you, without setting anything up first
+- Every toolbar button now has a place in the menus too, with keyboard shortcuts: a new Sky menu, Legend in View, Logbook in Window
+- Right-click the toolbar to customise it: add, remove and reorder buttons, and choose whether names show
+- The toolbar palette offers five buttons that aren't there by default: Fit All, Watch Here, Map Style, Color by Altitude and Filter
+- The Settings option for toolbar names is gone, because the Customize Toolbar sheet already does it, where the Mac keeps that control. If you had names switched on, right-click the toolbar and choose Icon and Text to get them back
+
 ## 1.3.1 — 2026-08-22
 - Aircraft cards now show the year the airframe was built, and how old it is
 - The sidebar's Low Altitude filter grows into a full set of height bands, on the same boundaries as the map's altitude key
