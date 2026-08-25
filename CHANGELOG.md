@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.3.3 — 2026-08-24
+- Helicopters now show as helicopters, on the map and in the sidebar: rotor and tail, pointing the way they are going
+- Aircraft sitting at airports are hidden by default, since they are not overhead. Bring them back from the filter menu
+
 ## 1.3.2 — 2026-08-23
 - The logbook has a gallery: every aircraft that has flown over, with a photo of that exact airframe wherever one exists
 - Open any of them for its own page: when you first saw it, how many days it has been over, its closest pass, and how old it is
