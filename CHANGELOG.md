@@ -1,5 +1,10 @@
 # Overhead release history
 
+## 1.3.4 — 2026-08-25
+- Fit All, Home, Watch Here and the map style have moved off the map and into the toolbar, so the map is all map. Each one is still in the View menu with its keyboard shortcut, and the toolbar itself can be rearranged or trimmed from right-click, Customize Toolbar
+- Your toolbar arrangement resets once with this update, so the three controls that just moved are on it when you open the app
+- A new app icon, drawn in layers so macOS 26 can light it the way it lights everything else
+
 ## 1.3.3 — 2026-08-24
 - Helicopters now show as helicopters, on the map and in the sidebar: rotor and tail, pointing the way they are going
 - Aircraft sitting at airports are hidden by default, since they are not overhead. Bring them back from the filter menu
