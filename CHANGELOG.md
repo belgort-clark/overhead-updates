@@ -1,5 +1,11 @@
 # Overhead release history
 
+## 1.3.4.2 — 2026-08-26
+- Fixed: buttons you added with Customize Toolbar came back in a different order the next time you opened the app, so they often looked like they had been dropped altogether. They had not been, but the toolbar could no longer be trusted to stay as you left it
+- The toolbar now has one fixed order and keeps it. Customize Toolbar has gone with the fault, which is a real loss and not one made lightly: the reordering was in the toolbar machinery itself rather than in anything Overhead could reach, and a toolbar that stays put beat a customisable one that did not
+- Every button on the toolbar is also in the menu bar with its own keyboard shortcut, so nothing has become harder to get to
+- Color by Altitude and Filter are no longer on the toolbar, where they were hidden by default anyway. Both are in the View menu
+
 ## 1.3.4.1 — 2026-08-25
 - A bell on any aircraft adds it to the alert watchlist, so you can ask to be told when that aeroplane flies over again without opening Settings and typing its registration. It sits on the detail card and on the aircraft's own page in the logbook, and what it saves is the airframe, not the flight number
 - Aircraft symbols sit properly centred in their circles now, in the sidebar, on the map and in the widgets

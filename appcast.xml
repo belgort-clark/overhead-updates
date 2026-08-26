@@ -3,6 +3,28 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.3.4.2</title>
+            <pubDate>Wed, 26 Aug 2026 08:45:11 -0700</pubDate>
+            <sparkle:version>19</sparkle:version>
+            <sparkle:shortVersionString>1.3.4.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.3.4.2</h3><ul>
+<li>Fixed: buttons you added with Customize Toolbar came back in a different order the next time you opened the app, so they often looked like they had been dropped altogether. They had not been, but the toolbar could no longer be trusted to stay as you left it</li>
+<li>The toolbar now has one fixed order and keeps it. Customize Toolbar has gone with the fault, which is a real loss and not one made lightly: the reordering was in the toolbar machinery itself rather than in anything Overhead could reach, and a toolbar that stays put beat a customisable one that did not</li>
+<li>Every button on the toolbar is also in the menu bar with its own keyboard shortcut, so nothing has become harder to get to</li>
+<li>Color by Altitude and Filter are no longer on the toolbar, where they were hidden by default anyway. Both are in the View menu</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.4.2.zip" length="7368317" type="application/octet-stream" sparkle:edSignature="smKR/wfxvTqqtwnWn1rk5IzddxDZlBTx4aXtuzQMug7h4QcF/lTM4OlYnvfFkUBhxBO0400gbrsV7XeMWVsCDw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead19-18.delta" sparkle:deltaFrom="18" length="523058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6cE+7GJnQWxuE4xvBuGe1Q78v/Ee4TBJrp0JjvJSiLFsuRhsxtVv33Ilo9ags8+doGCHGZKSyo441W2Kh0/pBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead19-17.delta" sparkle:deltaFrom="17" length="630898" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lVHr7NlBk5Ryttu5keMCT8aS6TIfIC5RZTZnb1w+ibDS4+kZWdQESgSFmKU6OKUmGmr2BHiOpazYx/po9czFBA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead19-16.delta" sparkle:deltaFrom="16" length="1567070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vk9vIFsptVXq1j6l6ZAK8Ud0DRHANhRfhntf7V7o4F7c0Gu2kYRF1KjX6phTHmGGTe3pYDKgoe7Q2tWURLvLAQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead19-15.delta" sparkle:deltaFrom="15" length="1597974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tQeYs/F5u69wmkjc+DJb/wRw6Hxz59f/s5vIDWERejLbDy/SADVHXVed41U85QJ8m/tas/SlhdRgjfPf8FOyCQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead19-14.delta" sparkle:deltaFrom="14" length="1977530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oiwAhhQuH7JGiWMqUItBAq3bX4dpcbZ4h/8VHB1Q9cuEqWjZhWoK4kEtKnGdY1hxC8YifjHHgUhlOS6N/svQDw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.4.1</title>
             <pubDate>Tue, 25 Aug 2026 18:39:39 -0700</pubDate>
             <sparkle:version>18</sparkle:version>
@@ -119,35 +141,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead14-11.delta" sparkle:deltaFrom="11" length="1546162" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ApSKIr+uDPjHKYIROsRXXSLNBsUP7PZ+VyvQOWEfnFtlO4oCQzxIQm4Plb//EnBLyOdGSOGN3iNLF9xL/6qoAg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead14-10.delta" sparkle:deltaFrom="10" length="1947222" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2f5XrrQNUV1+NzToYnwIVJK/FThclgtV0Ap3vGj8j3yX+S9oItpndEZwE5sDGuhfGpC34JmeLXTL6JlxH8WWBA=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead14-9.delta" sparkle:deltaFrom="9" length="2188478" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Gn3fnRp61KyojU9NoWxBAUKE216TLBRI5//pmPbCGL9yFdo0hKBOcN4+CCR/CuVFs16FJj/Cv5YsxALjdd5uCg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.0</title>
-            <pubDate>Sat, 22 Aug 2026 12:47:43 -0700</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.3.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.3.0</h3><ul>
-<li>Selecting an airline flight now draws its route on the map, from the aircraft to its destination</li>
-<li>The Legend explains the difference between a trail (where an aircraft has been) and a route (where it is going)</li>
-<li>Turn routes off with View > Show Flight Routes</li>
-<li>ATC feeds can be renamed, or pointed at a new address, without removing and adding them again</li>
-<li>The radar in the About window now sweeps the way a radar does, instead of pulsing</li>
-<li>Fixed: quitting could lose up to a minute of logbook entries</li>
-<li>Fixed: watching another spot no longer files that spot's traffic in your logbook</li>
-<li>Fixed: the sky conditions tooltip never showed when the reading was taken</li>
-<li>Fixed: the menu bar could count more aircraft than it listed while a filter was on</li>
-<li>Fixed: a followed flight could be checked twice at once when a data source was slow</li>
-<li>Fixed: aircraft parked at an airport near you no longer count as flying overhead in the menu bar or the widgets</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.0.zip" length="4417722" type="application/octet-stream" sparkle:edSignature="FQkFJ2FDOWunvhXxqxKSUB4S6qr4cSDpS9qTZdm108S176ovZ22T6THwMfAzieENEVAyeFNEeLc2NaoOZMPDAQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead13-12.delta" sparkle:deltaFrom="12" length="628482" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="6QDWlZdvPj4OShb+5vBZbFgvCrYRPeiIgSHvXY/BZyiJbxbfqHdjVSRUtpNKH54JDHb75saHAgMwgyK01TGwDA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead13-11.delta" sparkle:deltaFrom="11" length="700954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VpIErNXi2ghQixsDIEIsdOHdhqT/MhcB1neFxtf4+YI0GrAORswBgcQWlfRqgd/oUa6gvx1WTlY69tUfFIqeCA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead13-10.delta" sparkle:deltaFrom="10" length="1120182" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="M/GHssmkBmHsM5PBwVDrNHo1qj6bqDTIVD9mt/QHVyt2Nc+xcKTBRN9q4+VL6NNgbjYHZ7rw1IHSTfnx9IvMAw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead13-9.delta" sparkle:deltaFrom="9" length="1370710" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="alOSL39Npn8xNXuHFgdBD3HRapcN4+TJ20LICMF/OCu067A9UosYdqAIJOa1xwSc4iGVTBl4o6J7xNqMlCrcDw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead13-8.delta" sparkle:deltaFrom="8" length="1421170" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lXluyWZEj6in2gd4ULc/N1cH1332AVIGOmjaHlkTvSitSENXRQARX+Xe3Wggk/1tjztSHpaOfUUawZFCoUQoBQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
