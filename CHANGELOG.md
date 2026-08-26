@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.3.4.1 — 2026-08-25
+- A bell on any aircraft adds it to the alert watchlist, so you can ask to be told when that aeroplane flies over again without opening Settings and typing its registration. It sits on the detail card and on the aircraft's own page in the logbook, and what it saves is the airframe, not the flight number
+- Aircraft symbols sit properly centred in their circles now, in the sidebar, on the map and in the widgets
+
 ## 1.3.4 — 2026-08-25
 - Fit All, Home, Watch Here and the map style have moved off the map and into the toolbar, so the map is all map. Each one is still in the View menu with its keyboard shortcut, and the toolbar itself can be rearranged or trimmed from right-click, Customize Toolbar
 - Your toolbar arrangement resets once with this update, so the three controls that just moved are on it when you open the app
