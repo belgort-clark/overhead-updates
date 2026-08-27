@@ -1,5 +1,12 @@
 # Overhead release history
 
+## 1.4.1 — 2026-08-26
+- Lowest seen in the logbook was usually nothing of the sort: an airliner on the runway at the airport down the road is doing 140 knots with its transponder still reporting the height of the tarmac, and Overhead filed that as a 25 ft pass over your house. It now knows where every airfield in the world is and how high it stands, so a reading taken over one stops counting as a pass over you
+- Genuine low traffic is untouched. A light single at 800 ft over the houses is nowhere near a runway and still counts, which was the whole point of the figure
+- The closest pass is judged the same way, so a landing at the strip two miles away can no longer file itself as the closest thing that ever came over
+- Lowest seen carries the date it happened now, the way the closest pass does. They are rarely the same day and the card no longer implies they were
+- Heights recorded before this cannot be sorted out after the fact, because all that survives of each one is a number. The ones a nearby runway could explain have been cleared, and fill in again the next time the aircraft comes over: a regular takes a day or two
+
 ## 1.4.0 — 2026-08-26
 - **Go to Place**: type a city, an airport or an address and Overhead flies there and watches its sky. The banner names where you are, so it reads "Watching Boston, MA" rather than a distance from home, and clicking that name flies back if you have dragged the map away
 - **Saved places**: star the spot you are watching and it is one click away from then on, instead of something you type the name of every time. Go to Place opens with them already listed, and they are in the Sky menu under Go to Saved Place

@@ -3,6 +3,29 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.4.1</title>
+            <pubDate>Wed, 26 Aug 2026 19:07:13 -0700</pubDate>
+            <sparkle:version>22</sparkle:version>
+            <sparkle:shortVersionString>1.4.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.4.1</h3><ul>
+<li>Lowest seen in the logbook was usually nothing of the sort: an airliner on the runway at the airport down the road is doing 140 knots with its transponder still reporting the height of the tarmac, and Overhead filed that as a 25 ft pass over your house. It now knows where every airfield in the world is and how high it stands, so a reading taken over one stops counting as a pass over you</li>
+<li>Genuine low traffic is untouched. A light single at 800 ft over the houses is nowhere near a runway and still counts, which was the whole point of the figure</li>
+<li>The closest pass is judged the same way, so a landing at the strip two miles away can no longer file itself as the closest thing that ever came over</li>
+<li>Lowest seen carries the date it happened now, the way the closest pass does. They are rarely the same day and the card no longer implies they were</li>
+<li>Heights recorded before this cannot be sorted out after the fact, because all that survives of each one is a number. The ones a nearby runway could explain have been cleared, and fill in again the next time the aircraft comes over: a regular takes a day or two</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.1.zip" length="8190713" type="application/octet-stream" sparkle:edSignature="iwUmsvtVq7UDqfor6h3rHORz0936rbf14nq7LtEVMHdAmCj51cdSMS5hVUkUwtGSDyPr4PV4sQ/NqzJtShlrBQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead22-21.delta" sparkle:deltaFrom="21" length="824706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sCb8Q1a4Vo/qZPV5V1keOblyhXBmYhjp5YeCEYiJ6K0ZWskExnGDKlgq24/lqAJNhotwAdKkazo5UJtzCkDYBg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead22-20.delta" sparkle:deltaFrom="20" length="1352042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FjKcIv3Wn/zwc1A5tH2YGY6qDAAxyD8dHH8pkF4ss0rvTLouit/2/FCCD+evtOWqnalIV9I+uZCWrTa1PbdkAw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead22-19.delta" sparkle:deltaFrom="19" length="1444518" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nTMcJ15hOOLXWU6RiMRddDtpwz7pVafJOAGIo9oJpF3tpp60vOCd72ZF2LRRuzMp9upfrOHKujp6hOEUozNGDA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead22-18.delta" sparkle:deltaFrom="18" length="1478530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="S5+EicGnze+sXp9niK4Ses4uFI52aJup82dh+bDS14K2/cCQP1F2TzLubLmrzBkd+VHhluU6ETHqVU69vZ27Ag=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead22-17.delta" sparkle:deltaFrom="17" length="1526122" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yXlYAal82hY+511tKYFbhreJFjW+SVene3sGWAcWyaAFEweiwSA+MgC2H/JDC3VQGFx7BpimWKdeccBE1EXsAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.0</title>
             <pubDate>Wed, 26 Aug 2026 17:25:06 -0700</pubDate>
             <sparkle:version>21</sparkle:version>
@@ -115,26 +138,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead17-14.delta" sparkle:deltaFrom="14" length="1880766" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="GYlUydCYHriaDwMUM+1J0SwrW1E+B5o7Y/hQ1y2sBadZeIbwTqGQ8l+FewpbfGzFGRdnl5QxZTb/BLCNa5kXDQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead17-13.delta" sparkle:deltaFrom="13" length="2712190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e+amV8kavPj3Jh5VObop20TaZNGeKaJKpEmrRIjo1rnA5EQpCjHvZ+XpHwT8xFdLGMd8YjmUW0zhof5CPA5OCw=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead17-12.delta" sparkle:deltaFrom="12" length="2872326" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="re1ACaWc7odWw/qKLXN4eh+8vwWj4yQOQXmsToRszsBl9IpvEBFuyfglBYS8nqCAJkCQXC3FBxYMBywxEnXnDg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.3</title>
-            <pubDate>Mon, 24 Aug 2026 18:17:55 -0700</pubDate>
-            <sparkle:version>16</sparkle:version>
-            <sparkle:shortVersionString>1.3.3</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.3.3</h3><ul>
-<li>Helicopters now show as helicopters, on the map and in the sidebar: rotor and tail, pointing the way they are going</li>
-<li>Aircraft sitting at airports are hidden by default, since they are not overhead. Bring them back from the filter menu</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.3.zip" length="5809555" type="application/octet-stream" sparkle:edSignature="+vxcmseaQvsxN5pGGjipFGrLO3GLY8juNWS51FGeYG5KvPpUCCc/lSgocCIoCczAe+bjk8DeTmgT3t/oIM20DQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead16-15.delta" sparkle:deltaFrom="15" length="440190" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Oe5U3lSXZjUQUa5ipjlpF4d8WIDfmRXag6mCdEGuU5DYwb7EfuvsdhhDTqgE2CRbZGFOxNqkcWOdB2/lFUxTAg=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead16-14.delta" sparkle:deltaFrom="14" length="943130" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="sGXhOAgVF1XCHGQshzj8XfiwvLWy3cQGQjdcB8XUORKZbog7Fh4e89xKoLwVPPCSCgXINvwstaiubuglqyDAAw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead16-13.delta" sparkle:deltaFrom="13" length="1775870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AqETjQEdVVsxlIoU06AnxQufesB5Da0cJQGQpj25NjignBOXmHLrGCiG9fuE1/zhvMfGU4OWdDDX6WkVUmn7Dg=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead16-12.delta" sparkle:deltaFrom="12" length="1940674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PXm1oTfVMOjKBpGGlvjBynI/dQo9dpL8Wi39CBR8RLnWMSQ8ckVFns0qGvD937uJpqyqskOTSAbPzIuLdepzAA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead16-11.delta" sparkle:deltaFrom="11" length="1917614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MDVt5Ksfw9s8aqTUDfgYKpFhbe548ZlPfhuj7Ea4hYslq6t9+EOhzncsX91b9c53JmAnEGc33Keu1dCie7UyCw=="/>
             </sparkle:deltas>
         </item>
     </channel>
