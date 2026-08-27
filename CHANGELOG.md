@@ -1,5 +1,15 @@
 # Overhead release history
 
+## 1.4.2 — 2026-08-27
+- Alerts sound different from one another. Overhead used one sound for all ten kinds, so an emergency squawk and a first sighting arrived indistinguishable: an emergency is its own sound now, a fly-over gets the shortest one there is because it is the alert you most need to hear from another room, and a first sighting or rare visitor gets a third. Everything else keeps the standard alert sound
+- Four sounds made for this app join the fourteen macOS ships: Blip, a single radar return and the shortest thing in the list at a tenth of a second; Ident, the two-tone a transponder sends; Sweep, something detected and closing; and Contact, two soft notes for a first sighting
+- Any sound you drop into your own Library/Sounds folder shows up in the list too, which is how custom alert sounds have always worked on the Mac
+- Which sound goes in each of the three slots is yours to pick. Settings previews the choice as you make it, and one switch puts them all back to a single sound
+- Records gains Lowest overhead: the lowest an aircraft has been when it actually came over you, rather than the lowest reading anywhere in the search circle. Those are different facts, and near an airport the second one always belongs to something on short final miles away
+- It needs the height at the moment of closest approach, which was not being kept, so this record starts empty and fills over a day or two
+- Forty-eight more aircraft types have names. A real logbook had 103 designators arriving nameless, so the common ones are named now: Cessna Stationairs and Skylanes, the Kodiak, the Husky, the Citabria, the Hawker 800 and the rest
+- Five helicopters were being drawn with wings, among them the Hughes 500 that turned out to be the lowest thing ever to pass overhead here
+
 ## 1.4.1 — 2026-08-26
 - Lowest seen in the logbook was usually nothing of the sort: an airliner on the runway at the airport down the road is doing 140 knots with its transponder still reporting the height of the tarmac, and Overhead filed that as a 25 ft pass over your house. It now knows where every airfield in the world is and how high it stands, so a reading taken over one stops counting as a pass over you
 - Genuine low traffic is untouched. A light single at 800 ft over the houses is nowhere near a runway and still counts, which was the whole point of the figure
