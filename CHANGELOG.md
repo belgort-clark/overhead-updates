@@ -1,5 +1,19 @@
 # Overhead release history
 
+## 1.4.0 — 2026-08-26
+- **Go to Place**: type a city, an airport or an address and Overhead flies there and watches its sky. The banner names where you are, so it reads "Watching Boston, MA" rather than a distance from home, and clicking that name flies back if you have dragged the map away
+- **Saved places**: star the spot you are watching and it is one click away from then on, instead of something you type the name of every time. Go to Place opens with them already listed, and they are in the Sky menu under Go to Saved Place
+- **Golden hour**: a capsule on the map names the light where you are watching and how long it lasts. After sunset it names the altitude above which aircraft are still in sunlight and marks those aircraft in the sidebar, which is why an airliner can be lit orange against a sky that has already gone dark
+- **Rare visitor alerts**: Overhead can tell you when a type you have hardly ever logged comes back after a long absence, which is a different thing from a first sighting. You set how few times counts as rare and how long it must have been away, and Settings reads your logbook to say how many alerts a day that works out to before you commit to it
+- **Types to watch for**: a second watchlist for kinds of aircraft rather than particular ones, so Overhead can tell you about any 747, every A380, the next C-17. You do not need to know the ICAO codes: type 747 and it finds the 747-8 and the 747-400 by itself, and Settings lists what each entry catches so a typo says so rather than just staying quiet
+- Right-click any aircraft on the map, in the sidebar, or in the logbook and choose Alert Me About Any to watch its type without opening Settings
+- **Records in the logbook**: the closest thing ever to pass over you, the oldest aircraft you have logged, your busiest day, and the aircraft that turns up more than any other
+- Most seen types and most seen operators, ranked as rows with the counts in a column you can read down. Click one to see every aircraft of that kind in the Gallery
+- Operator names have lost their Inc and Llc endings, which also merges the airlines that were being counted twice under two spellings
+- The note under the statistics says how many days your logbook covers, since a busiest day out of eight days recorded means something different from one out of eight years
+- Fixed: watching another spot left the sky conditions from the place you came from on screen, station code and all, until a new report arrived
+- Fixed: Fit All, and changing the search radius, threw the map back to home while you were watching somewhere else, leaving the banner and the sidebar describing a place the map was no longer showing
+
 ## 1.3.5 — 2026-08-26
 - Settings, General, Toolbar now lists every toolbar button with a checkbox, so you can switch off the ones you never press. The buttons you keep stay in the order they have always been in
 - Each one names where the same thing lives in the menus, so switching a button off is never the same as losing the feature. Hover a name to see which menu it is in

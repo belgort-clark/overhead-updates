@@ -3,6 +3,36 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.4.0</title>
+            <pubDate>Wed, 26 Aug 2026 17:25:06 -0700</pubDate>
+            <sparkle:version>21</sparkle:version>
+            <sparkle:shortVersionString>1.4.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.4.0</h3><ul>
+<li><strong>Go to Place</strong>: type a city, an airport or an address and Overhead flies there and watches its sky. The banner names where you are, so it reads "Watching Boston, MA" rather than a distance from home, and clicking that name flies back if you have dragged the map away</li>
+<li><strong>Saved places</strong>: star the spot you are watching and it is one click away from then on, instead of something you type the name of every time. Go to Place opens with them already listed, and they are in the Sky menu under Go to Saved Place</li>
+<li><strong>Golden hour</strong>: a capsule on the map names the light where you are watching and how long it lasts. After sunset it names the altitude above which aircraft are still in sunlight and marks those aircraft in the sidebar, which is why an airliner can be lit orange against a sky that has already gone dark</li>
+<li><strong>Rare visitor alerts</strong>: Overhead can tell you when a type you have hardly ever logged comes back after a long absence, which is a different thing from a first sighting. You set how few times counts as rare and how long it must have been away, and Settings reads your logbook to say how many alerts a day that works out to before you commit to it</li>
+<li><strong>Types to watch for</strong>: a second watchlist for kinds of aircraft rather than particular ones, so Overhead can tell you about any 747, every A380, the next C-17. You do not need to know the ICAO codes: type 747 and it finds the 747-8 and the 747-400 by itself, and Settings lists what each entry catches so a typo says so rather than just staying quiet</li>
+<li>Right-click any aircraft on the map, in the sidebar, or in the logbook and choose Alert Me About Any to watch its type without opening Settings</li>
+<li><strong>Records in the logbook</strong>: the closest thing ever to pass over you, the oldest aircraft you have logged, your busiest day, and the aircraft that turns up more than any other</li>
+<li>Most seen types and most seen operators, ranked as rows with the counts in a column you can read down. Click one to see every aircraft of that kind in the Gallery</li>
+<li>Operator names have lost their Inc and Llc endings, which also merges the airlines that were being counted twice under two spellings</li>
+<li>The note under the statistics says how many days your logbook covers, since a busiest day out of eight days recorded means something different from one out of eight years</li>
+<li>Fixed: watching another spot left the sky conditions from the place you came from on screen, station code and all, until a new report arrived</li>
+<li>Fixed: Fit All, and changing the search radius, threw the map back to home while you were watching somewhere else, leaving the banner and the sidebar describing a place the map was no longer showing</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.0.zip" length="7778705" type="application/octet-stream" sparkle:edSignature="CqFJ8shxStm3oHaC56Wb2X+eAOl9dlnFL5eSRwB4Wz+QmzkOI6UDH26VaGV9Lh0s3ELQCxmcty/AAQXYmogKBg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead21-20.delta" sparkle:deltaFrom="20" length="1003574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VZmAudICXL9ZgNA21TI6XLqcYKgPSMaW0H7f3doVJ3Tatww1s/uytoDO6N/TCFfi6nqTtEny7H966v1g8d5KCg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead21-19.delta" sparkle:deltaFrom="19" length="1086922" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Y6c6FUttMU34/gol/fT/w/UMmPF6b6JpZPv2wjdggZUKj2aND6UDkT6MXmE0bp9dR5ZBiWctzO3wQ9NIiJHiBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead21-18.delta" sparkle:deltaFrom="18" length="1131786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0y8vFAgr17XrxFxvHhDbcAb8fxEyWBxIg05b3jV6wKKS2us8uhPPy0WeIiHrkg6clSUIA36r/MbwZbwM0OtmAw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead21-17.delta" sparkle:deltaFrom="17" length="1179294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0UgdV/uZkYzmpuZRTJxLiRV6EAcG1L6gFrvZ+HuexuJQJTxO8+5l0sbuC55x+sCsmBRMeWKVKxcP2NKLMEG0AQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead21-16.delta" sparkle:deltaFrom="16" length="2112750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MAfHgryUB4u0LedU+hMAsKqyFC69UKV+8DkIYIHuejbkUeLfbMEoLxmkCkAyeOYtrE0nIaghsd8ZgmSrEtGjBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.3.5</title>
             <pubDate>Wed, 26 Aug 2026 09:32:41 -0700</pubDate>
             <sparkle:version>20</sparkle:version>
@@ -105,39 +135,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead16-13.delta" sparkle:deltaFrom="13" length="1775870" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AqETjQEdVVsxlIoU06AnxQufesB5Da0cJQGQpj25NjignBOXmHLrGCiG9fuE1/zhvMfGU4OWdDDX6WkVUmn7Dg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead16-12.delta" sparkle:deltaFrom="12" length="1940674" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="PXm1oTfVMOjKBpGGlvjBynI/dQo9dpL8Wi39CBR8RLnWMSQ8ckVFns0qGvD937uJpqyqskOTSAbPzIuLdepzAA=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead16-11.delta" sparkle:deltaFrom="11" length="1917614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MDVt5Ksfw9s8aqTUDfgYKpFhbe548ZlPfhuj7Ea4hYslq6t9+EOhzncsX91b9c53JmAnEGc33Keu1dCie7UyCw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.2</title>
-            <pubDate>Sun, 23 Aug 2026 09:34:10 -0700</pubDate>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>1.3.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.3.2</h3><ul>
-<li>The logbook has a gallery: every aircraft that has flown over, with a photo of that exact airframe wherever one exists</li>
-<li>Open any of them for its own page: when you first saw it, how many days it has been over, its closest pass, and how old it is</li>
-<li>Sort the gallery by recent, most seen, closest, or oldest airframe</li>
-<li>Search the gallery by registration, type or operator: "alaska", "737", "N236"</li>
-<li>Arrow keys move through the gallery, Space shows the photo in Quick Look, and Return opens the aircraft</li>
-<li>Right-click any aircraft to copy its registration or photo, or open the photo on Planespotters</li>
-<li>Drag an aircraft out of the gallery into Notes, Mail or the Finder</li>
-<li>File > Export Logbook writes the whole collection as a CSV that opens in Numbers</li>
-<li>Overhead now has Shortcuts actions: get the aircraft overhead, get sky conditions, or follow a flight</li>
-<li>Aircraft come back as real items, so a shortcut can use one flight's altitude, distance or age on its own</li>
-<li>Ask Siri or Spotlight what's flying over you, without setting anything up first</li>
-<li>Every toolbar button now has a place in the menus too, with keyboard shortcuts: a new Sky menu, Legend in View, Logbook in Window</li>
-<li>Right-click the toolbar to customise it: add, remove and reorder buttons, and choose whether names show</li>
-<li>The toolbar palette offers five buttons that aren't there by default: Fit All, Watch Here, Map Style, Color by Altitude and Filter</li>
-<li>The Settings option for toolbar names is gone, because the Customize Toolbar sheet already does it, where the Mac keeps that control. If you had names switched on, right-click the toolbar and choose Icon and Text to get them back</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.2.zip" length="5794603" type="application/octet-stream" sparkle:edSignature="IiSVdPYVy3AiK89edgMt2gprFfiNoPzKFQrxHewfLjc0xeZTcQLXl89bNNW9MO41QecRaqqUVaoTeSexVSmPCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead15-14.delta" sparkle:deltaFrom="14" length="916134" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cWPAMzepcrgovazt5d2OcOxlAUCPfe1pdrEsmwtrlxagQdQe0BMz7V4Yv8WF5oULqfDDJ52ZjYFOgqzO1jszDQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead15-13.delta" sparkle:deltaFrom="13" length="1763590" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ISw8bnU/I2Sa5Fk2HFfF9RSZ18VGRl94UWiHkv0k0tMwiIEkZUEhMUQ9iry0rP7HqUHKci++kausIcrLm+nfAQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead15-12.delta" sparkle:deltaFrom="12" length="1917718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="+puXDHonh4mjzIxEbTuyHONqQV0mRnDbB6AuVSejZzlzUU8srTim+PyK65xFo7Fcy9Cao2O5DjEWr2icXFceDA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead15-11.delta" sparkle:deltaFrom="11" length="1896646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Abb5wE5aGLllHQrx5go/pGwe1Gz4nrfrpsPEfjsbOYNYOwYOS8Os/PaZ9TCoMS7NaXi4z99KHZV1SmPn2G5hCw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead15-10.delta" sparkle:deltaFrom="10" length="2280730" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QU1TfXlboGgSLhcvKK9X017RxjBZfyU9sy9NCyKux+5c7Qf1CoNrR36Cf5YAO/UhYyfgo2NRualwtDfrnwQADQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
