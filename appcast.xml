@@ -3,6 +3,54 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.4.3</title>
+            <pubDate>Fri, 28 Aug 2026 10:57:10 -0700</pubDate>
+            <sparkle:version>24</sparkle:version>
+            <sparkle:shortVersionString>1.4.3</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.4.3</h3><ul>
+<li>Fixed: "Use this Mac's location" failed instantly on first run. Asking macOS for permission puts a panel on screen and returns straight away, and Overhead was asking for the location on the very next line, before anyone could answer. It waits for the answer now</li>
+<li>When it does go wrong it says which thing went wrong: not allowed, never asked, Location Services switched off for the whole Mac, or a Mac that simply cannot place itself. Being told to type an address instead is no help when the real answer is in System Settings</li>
+<li>Fixed: the address box could not find places with names. "Tidewater Marina Portsmouth, VA" came back as "kCLErrorDomain error 8", which is a sentence for a developer. Overhead now searches the way Maps does, so marinas, parks, airports by name and businesses all work, in Go to Place as well</li>
+<li>Toolbar tooltips name their keyboard shortcut. With labels switched off the tooltip is the only thing a button can say about itself, and it is where the shortcut is worth finding</li>
+<li>Help has caught up: a section of its own for the Logbook, the light and golden hour, going somewhere else and saving it, the newer alert rules and their sounds. It also stopped telling you the house button changes your home location, and stopped describing a toolbar order that has not existed for three versions</li>
+<li>The Logbook tooltip said "Sighting statistics", which described one of its two tabs</li>
+<li>The toolbar is in a more sensible order. Left to right it now reads the way the app works: what is being searched and whether it is live, then where that search is pointed, then the things that open a window of their own, then how the map is drawn. The two appearance controls used to sit at opposite ends, with the altitude key stranded between the Logbook and the Home button</li>
+<li>The alert range now applies to every rule. First sightings and rare visitors used to ignore it, so setting three miles could still bring an alert about an aeroplane eleven miles away. Nothing is lost by the change: the logbook still records your whole search radius, and a type first met out at the edge waits, then announces itself when one comes close enough to be worth looking at</li>
+<li>Fixed: an airliner could name a bank as its operator. The name that comes with an aircraft is its registered owner, and for a leased airframe that is a trustee: one scheduled flight was reading "Umb Bank Na Trustee". Where the owner is plainly holding title rather than flying, the callsign's airline is used instead</li>
+<li>Cards can say where an aircraft is going even when no schedule knows: an aeroplane descending towards a runway, pointed at it and low enough to be arriving, is landing there. It reads "Arriving PDX" with the minutes left, and it needs no database, so it works for the light aircraft and charters no schedule service has heard of</li>
+<li>The Show the search radius switch has left Settings. It is in the View menu at Shift-Command-K, and as a toolbar button you can add in Settings, General, Toolbar</li>
+<li>Fixed: a flight could be labelled with the wrong destination for its whole journey. Routes come from a database keyed on the callsign, and an airline reuses a number across the legs of a day, so Portland to Fort Lauderdale was shown for an aircraft on its way to New York. Overhead now also checks the direction the flight has made good since departure, which catches that within about twenty minutes of take-off instead of never</li>
+<li>The blue search radius ring can be switched off, in Settings, Map, Search radius. It only stops the map drawing the ring: the same circle is still searched and the same aircraft still listed</li>
+<li>The house in the toolbar takes you home now. It used to open the panel for setting where home is, which is something you do once, and people were clicking it expecting the map to come back over their own roof. Changing home moved to the Sky menu, as Change Home Location</li>
+<li>Fixed: pressing Watch This Spot while the map was already centred on home started watching home, which put up a banner reading "watching a spot 0 mi from home" and offering to take you home, from home</li>
+<li>The Logbook button is a book rather than a bar chart. It is a logbook, and the chart was describing one tab of it</li>
+<li>The Home Location panel is the size of what is in it. It was being given the height of most of a first-run window to hold a title, a field and two buttons, and opened as a mostly empty box</li>
+<li>The sky and light capsules on the map are legible again. They sat on a translucent material that let the map through, so the station code and the time were washed out over dark water and fine over a pale field</li>
+<li>The pulse around a selected aircraft starts clear of the marker instead of on it. The ring was born at exactly the marker's own size, so every second or so the edge of the icon appeared to throb: slight at normal size, and obvious to anyone using the Mac's zoom</li>
+<li>Reduce motion in System Settings now stills the map too. Overhead had a switch of its own and honoured the system one only in the About window, though Help said otherwise</li>
+<li>Fixed: aircraft markers rocked in place. The heading a marker points is whatever the feed last reported, and that wanders: an airliner holds its track to half a degree, a light aircraft wanders two to five, and a Robinson R22 was measured swinging ten degrees with no turn behind it. Overhead now ignores the wander and follows the turns, so a marker points where the aeroplane is going and holds still when it is going straight. It was never an animation, which is why Reduce Motion made no difference to it</li>
+<li>The map keeps to its five-second refresh when a data source goes down. Overhead asks adsb.lol first and falls back to adsb.fi, and adsb.lol goes quiet for long stretches: every refresh was spending eight seconds waiting for it to time out, so updates were arriving every ten seconds instead of five. It now asks whichever source answered last time first</li>
+<li>Fixed: a flight could keep a route it had plainly finished. The altitude test had a ceiling but no floor, so a 737 descending through 3,600 ft over Portland still carried a Seattle to Kansas City label with 1,465 miles to run. It was landing here, and the database had a different leg of its day. An aircraft on the way down, low, with a long way still to go, is no longer believed</li>
+<li>Fixed: an aircraft could be reported as arriving somewhere it was far too low to reach. The check asked whether it was low enough to be coming down at a field and never whether it was high enough to still be flying there, so a Cessna in the circuit at 825 ft, pointed the right way, was arriving at an airport twenty two miles off that it would have reached underground</li>
+<li>Use this Mac's location names the place. It recorded your coordinates as "My location", which is the label the window title and the home callout then showed you</li>
+<li>Click the house on the map to see where Overhead is watching and change it. The marker is the one thing on screen that is your location, so it is now the place you set it, rather than a menu you had to know about first. Right-clicking it offers the same thing</li>
+<li>The window says which place you are watching. Nothing in it named the point that every distance, alert and record is measured from</li>
+<li>Your location is the first thing in Settings, General, with the place, its coordinates and a Change button. It used to live under Privacy, where the only thing on offer was forgetting it: you could throw your location away but not edit it</li>
+<li>The word "Home" is gone from the places that name that setting. It read as somewhere Overhead already knew about, rather than the point you chose for it to watch</li>
+<li>The first-run screen says what the app is for, explains what your location is used for and that you can change it later, and describes what actually leaves the Mac. It also sizes its window to itself instead of borrowing the map's, which left a small form adrift in a lot of empty space</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.3.zip" length="8470609" type="application/octet-stream" sparkle:edSignature="tuldhp5yOYXH5m358lSpeP8MsM8RNgUNx5Wf+ek0ybC7imoxa2fj1yaWJ8oYNVf2VPauQBPwb0kr33WTHtKACA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead24-23.delta" sparkle:deltaFrom="23" length="1054234" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Nluu+ntav8EH4tWVf+LaWUed69N4OW38EAIbVvYo0sxRqEo8E5zqRj3dm6SeWthM5u11b4P2q1CEE/y6HwqvBw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead24-22.delta" sparkle:deltaFrom="22" length="1193290" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="xTDoSjLmHqHXyKBpo7vx8ZlfTMoTFaSxYRdUZTGVTIHJ3nsrfQJILnI2BWM418+jQD6Dd5cM5FQiMJeqcJOxBQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead24-21.delta" sparkle:deltaFrom="21" length="1520714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ysFbHm5BzBHQeJB31aNGQeNCkFCZFXEKNrS1B7Fw2Rm3tDvWB5edljV0WjliNzFFA/YHJibWWXzrAWfNEHglDA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead24-20.delta" sparkle:deltaFrom="20" length="1780014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZILRoqulCwR1ZNJHNuGe70ih+NnbNh1MX3AR8inOeL9vcIHaw0tWOib6ln8y2XvtCsb7TBVKBbIwoQbROwegBg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead24-19.delta" sparkle:deltaFrom="19" length="1850986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NE/UrYtKX5YFZB3rdW6H4W2sXl3mzYbcF+KBBUeBmIasTzH/WsWf/YVtGTwH5W1y3VfV+Hyw5rtp+a89BqviBg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.4.2</title>
             <pubDate>Thu, 27 Aug 2026 11:48:47 -0700</pubDate>
             <sparkle:version>23</sparkle:version>
@@ -123,26 +171,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead19-16.delta" sparkle:deltaFrom="16" length="1567070" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="vk9vIFsptVXq1j6l6ZAK8Ud0DRHANhRfhntf7V7o4F7c0Gu2kYRF1KjX6phTHmGGTe3pYDKgoe7Q2tWURLvLAQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead19-15.delta" sparkle:deltaFrom="15" length="1597974" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="tQeYs/F5u69wmkjc+DJb/wRw6Hxz59f/s5vIDWERejLbDy/SADVHXVed41U85QJ8m/tas/SlhdRgjfPf8FOyCQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead19-14.delta" sparkle:deltaFrom="14" length="1977530" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="oiwAhhQuH7JGiWMqUItBAq3bX4dpcbZ4h/8VHB1Q9cuEqWjZhWoK4kEtKnGdY1hxC8YifjHHgUhlOS6N/svQDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.4.1</title>
-            <pubDate>Tue, 25 Aug 2026 18:39:39 -0700</pubDate>
-            <sparkle:version>18</sparkle:version>
-            <sparkle:shortVersionString>1.3.4.1</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.3.4.1</h3><ul>
-<li>A bell on any aircraft adds it to the alert watchlist, so you can ask to be told when that aeroplane flies over again without opening Settings and typing its registration. It sits on the detail card and on the aircraft's own page in the logbook, and what it saves is the airframe, not the flight number</li>
-<li>Aircraft symbols sit properly centred in their circles now, in the sidebar, on the map and in the widgets</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.4.1.zip" length="7348970" type="application/octet-stream" sparkle:edSignature="R7C2/H4scKHi7xk4J/0p4IDAS77fFzBdcmLCorgNhcp3yO0aZs6EgidCRBXK7Z9NThfnHkDpUFY9Yxod59TCBQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead18-17.delta" sparkle:deltaFrom="17" length="511950" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="TbBU6vWsCAyhg7ylJ5KesioucQ0s/5sm4i0D7jIXbO9sq/3zVn1mViHpLbcSnvc7/rloo8Sys++Lno3ih+vnCQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead18-16.delta" sparkle:deltaFrom="16" length="1464714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lfUNQynBaoMJ0nLMs1erMTmtZwm7ojWj805ZMFQptXt4gphJxg/UhA8k1LuxsVkGYE8t75hHEOEFUGmGus03BA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead18-15.delta" sparkle:deltaFrom="15" length="1491434" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="3oSdRHc+N8HZga68opJgylZ/j4q5M134x4gOslU7fwcd8sPoJxjvk+uqZw6c6+dA9s6ddI+S7GsKWpsTF7LEBA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead18-14.delta" sparkle:deltaFrom="14" length="1939778" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T9mPenu1wI53JZDdOTrfrlJFPOoP6lBMtEU1KAbNq1aYFmh9sua9F3Fe5Xq4mLb8G9rMfPJ6w/pcr7RC3QBjDw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead18-13.delta" sparkle:deltaFrom="13" length="2763626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="gabhpN6tTqAFWj/x6l0zg4sc6uoC9tRnrUD1s0V+hDQrUTKgyNdPypXXdmz+7ftvQPFysJDwpsAasiVMlc35Cg=="/>
             </sparkle:deltas>
         </item>
     </channel>
