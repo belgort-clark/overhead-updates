@@ -3,6 +3,18 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.4.5</title>
+            <pubDate>Mon, 31 Aug 2026 08:24:29 -0700</pubDate>
+            <sparkle:version>26</sparkle:version>
+            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.4.5</h3><ul>
+<li>Fixed: Overhead could stop responding after being left running, badly enough to need Force Quit. Every aircraft on the map carries its callsign as a label, and while the window sat behind other windows macOS queued that labelling instead of drawing it. Left overnight the app reached 2.9 GB, and bringing the window back asked it to do the whole night's labelling in one go, which took it past 21 GB and pinned a processor for a minute and a half. The aircraft and their trails now leave the map while no window is on screen and return when one is, so there is nothing to catch up on. Nothing else stops: the five-second refresh, the alerts, the logbook and the widgets are the reason to leave it running in the first place</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.5.zip" length="8507859" type="application/octet-stream" sparkle:edSignature="esQOD9ORNIiGt/sOU7/MJXVYaJ7+dU8/JlE5ky7iqFiWDpv5NbS5sUZqsF1kE+AbTVJAbONio/UoBTg0ZftgDA=="/>
+        </item>
+        <item>
             <title>1.4.4</title>
             <pubDate>Sat, 29 Aug 2026 11:40:05 -0700</pubDate>
             <sparkle:version>25</sparkle:version>
@@ -149,28 +161,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead21-18.delta" sparkle:deltaFrom="18" length="1131786" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0y8vFAgr17XrxFxvHhDbcAb8fxEyWBxIg05b3jV6wKKS2us8uhPPy0WeIiHrkg6clSUIA36r/MbwZbwM0OtmAw=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead21-17.delta" sparkle:deltaFrom="17" length="1179294" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0UgdV/uZkYzmpuZRTJxLiRV6EAcG1L6gFrvZ+HuexuJQJTxO8+5l0sbuC55x+sCsmBRMeWKVKxcP2NKLMEG0AQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead21-16.delta" sparkle:deltaFrom="16" length="2112750" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="MAfHgryUB4u0LedU+hMAsKqyFC69UKV+8DkIYIHuejbkUeLfbMEoLxmkCkAyeOYtrE0nIaghsd8ZgmSrEtGjBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.3.5</title>
-            <pubDate>Wed, 26 Aug 2026 09:32:41 -0700</pubDate>
-            <sparkle:version>20</sparkle:version>
-            <sparkle:shortVersionString>1.3.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.3.5</h3><ul>
-<li>Settings, General, Toolbar now lists every toolbar button with a checkbox, so you can switch off the ones you never press. The buttons you keep stay in the order they have always been in</li>
-<li>Each one names where the same thing lives in the menus, so switching a button off is never the same as losing the feature. Hover a name to see which menu it is in</li>
-<li>Show All puts every button back</li>
-<li>Click a flight in Follow a Flight to see it on the map. One you are already tracking gets selected, with its halo, its detail card and its trail; one too far away to be on the map yet just takes the map to it</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.3.5.zip" length="7446733" type="application/octet-stream" sparkle:edSignature="uzynaaVebvEbCYj6gtVy75JNgwceXjFcYvqzdJq36p3aJG0sOjfYRupzemdUArPCZ9pqUxdJfJGmiVpeFFzxDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead20-19.delta" sparkle:deltaFrom="19" length="619486" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dTYvRBaPtxl0YewawxEDXGVpDI94plcHfred29d1P/jQpP+zw5i5ZrvK4PE0kxaoTxGdkTRfY0zJyG7q2NX0Aw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead20-18.delta" sparkle:deltaFrom="18" length="695670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kB5/TtdTp7uaa8hwVZL/PttB/xq0yF+OtDQKcBHDUI/pQQVEXH0JoEZySCvmRQGkXsn5snFchrTKB4pEYV13AQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead20-17.delta" sparkle:deltaFrom="17" length="780418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OXH/cOq8XNMtz0mLQAe6r3HXYFxh18JkkW2WSZcHtgqiqUkdj9lqJXN26OS9d8d4roI432GcaEGjeRNBvdEyCQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead20-16.delta" sparkle:deltaFrom="16" length="1707534" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2jMPDiDJT4JJ7P2PLl64Q2ZK6Z7ycw7PZB+JsKwk9DrlA5Jrlh2CDVjLSgKeNrb1Jmm3RAeBDho/8ysIiDjTAw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead20-15.delta" sparkle:deltaFrom="15" length="1733082" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YuKPHwW+OVeuquLCj/uJS9vCL2PJqqk2NR+zDDs9qMPdb4XRPOvgZ8m16FcTLUI2fGSijNss3mCyDjV9mhiFAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

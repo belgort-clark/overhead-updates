@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.4.5 — 2026-08-31
+- Fixed: Overhead could stop responding after being left running, badly enough to need Force Quit. Every aircraft on the map carries its callsign as a label, and while the window sat behind other windows macOS queued that labelling instead of drawing it. Left overnight the app reached 2.9 GB, and bringing the window back asked it to do the whole night's labelling in one go, which took it past 21 GB and pinned a processor for a minute and a half. The aircraft and their trails now leave the map while no window is on screen and return when one is, so there is nothing to catch up on. Nothing else stops: the five-second refresh, the alerts, the logbook and the widgets are the reason to leave it running in the first place
+
 ## 1.4.4 — 2026-08-29
 - Overhead says when it has updated. A line at the foot of the sidebar tells you, with a button that opens the release notes, and it goes for good once you have read it or dismissed it. Sparkle shows the notes while it installs and they vanish with that window, so until now nothing in the app said what had changed after the fact
 - Fixed: cloud and visibility could go missing for ten minutes at a time. The clock that decides when to ask again was started when the request went out rather than when it came back, so one failed fetch bought ten minutes with nothing on screen and nothing trying again. Changing where you are watching clears the conditions first, on purpose, so that a single miss just after moving left the capsule empty rather than briefly stale. A failure is retried in a minute now, and only one request is allowed in flight at a time
