@@ -1,5 +1,20 @@
 # Overhead release history
 
+## 1.5.0 — 2026-09-02
+- The sky as a radar scope. Map Style has a fifth choice, Radar Scope: every aircraft in the air plotted at its true bearing and distance from the place you are watching, on range rings marked in nautical miles, under a sweep. It is the app's own icon, brought into the window. The map answers what an aircraft is doing; the scope answers where to look
+- Clicking a blip opens the same card the map shows, photo and arrival line included, and the rings move over to make room for it rather than hiding behind it. The sidebar carries the rest, exactly as it does for the map
+- Only what is flying appears on the scope. Aircraft parked at the field down the road are not in the sky, and at ten miles they sat on top of one another at the gate; the readout counts them so nobody wonders where they went
+- Callsigns sit on leader lines, the way a controller's data block hangs off its target, and when two would collide the label moves and the aircraft does not: it tries the eight compass directions, then the eight again on a longer leader. At everyday ranges nothing moves. At a hundred miles the Seattle to Portland corridor fans out cleanly
+- The scope follows Color Aircraft by Altitude. With it on, the map's altitude colours; with it off, one colour, the scope's own green. An emergency is red either way
+- In scope mode the toolbar keeps only what still applies. Center on Home, the radius ring, Fit All, Go to Place and Watch This Spot drive a camera the scope does not have, so they step aside and come back with the map. The menu items stay, greyed, so their shortcuts remain where you learned them. Map Style stays, because it is the way back
+- The sweep is drawn by Core Animation on the render server rather than by the app, so nothing the app does can make it stutter, and it stops when the window is hidden or Reduce Motion is on
+- Fixed: every refresh held the app up for a tenth of a second. Six settings were written one after another and each one made every view re-check itself; they go through in one go now, and a refresh takes nine milliseconds instead of up to a hundred and thirteen. The map had been hiding this behind its own rendering; the scope showed it
+- Fixed: the logbook did the same thing one layer down, announcing a change for every one of a dozen writes it made per refresh, which dropped a frame on nearly every update. It announces once now
+- Fixed: Show Search Radius had picked up a second shortcut, Shift-Command-R, which hid its own Shift-Command-K and collided with Show Flight Routes
+- Updates are small again. 1.4.5 arrived as a full download because the update tool refused the framework's file permissions; the build sets them the way it wants now
+- Fixed: in the light appearance the aircraft card lost its contrast over anything dark. Over the scope it came out mid-grey with dark-grey labels on it, and over satellite imagery it went green-grey. On the scope the card is dark in either appearance, and on the map it sits on an opaque layer, as the weather capsules already did, so it reads the same wherever it lands
+- Fixed: on the scope, VoiceOver read the card's watchlist, pin and close buttons as "Radar scope"
+
 ## 1.4.5 — 2026-08-31
 - Fixed: Overhead could stop responding after being left running, badly enough to need Force Quit. Every aircraft on the map carries its callsign as a label, and while the window sat behind other windows macOS queued that labelling instead of drawing it. Left overnight the app reached 2.9 GB, and bringing the window back asked it to do the whole night's labelling in one go, which took it past 21 GB and pinned a processor for a minute and a half. The aircraft and their trails now leave the map while no window is on screen and return when one is, so there is nothing to catch up on. Nothing else stops: the five-second refresh, the alerts, the logbook and the widgets are the reason to leave it running in the first place
 
