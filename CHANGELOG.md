@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.5.1 — 2026-09-10
+- A support report. Help → Save Support Report… writes one text file with the app's state and its recent log: which data source is answering, outages and recoveries, alerts fired, update checks, permissions, and window events. It holds no location, no addresses and nothing from the logbook beyond its size. The log itself lives at ~/Library/Logs/Overhead/Overhead.log, capped at a megabyte with one previous copy kept, and every line also reaches Console under the subsystem com.elgort.overhead
+
 ## 1.5.0 — 2026-09-02
 - The sky as a radar scope. Map Style has a fifth choice, Radar Scope: every aircraft in the air plotted at its true bearing and distance from the place you are watching, on range rings marked in nautical miles, under a sweep. It is the app's own icon, brought into the window. The map answers what an aircraft is doing; the scope answers where to look
 - Clicking a blip opens the same card the map shows, photo and arrival line included, and the rings move over to make room for it rather than hiding behind it. The sidebar carries the rest, exactly as it does for the map
