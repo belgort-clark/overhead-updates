@@ -3,6 +3,24 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.5.2</title>
+            <pubDate>Thu, 10 Sep 2026 15:22:37 -0700</pubDate>
+            <sparkle:version>29</sparkle:version>
+            <sparkle:shortVersionString>1.5.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.5.2</h3><ul>
+<li>Send Support Report. Help → Send Support Report… opens a sheet: say what went wrong, add your email if you would like a reply, press Send, and the report from 1.5.1 goes straight to Bruce with your note, no mail program needed. Show Report opens exactly what would be sent first, and Save Instead keeps the file on disk to send another way. Nothing is sent until you press Send, and the report still holds no location and no addresses</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.5.2.zip" length="8702836" type="application/octet-stream" sparkle:edSignature="hkFhvBlwhYVsJ5j9+6uQqNBzIEmvqC1OEPlEKO9aQ+xQ0WjlM6LyNiXbGs6vhOyGeW+m8gNizQfEdsmsuO9IAQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead29-28.delta" sparkle:deltaFrom="28" length="611986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="p2uouCF6s5+MZpTrc8I4A8MKDznA5qlLlAlIUmyhYJB/sZ1BnnDfiiomwVxOo40VOzC/DNa62nJ4PA+UCsmKDg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead29-27.delta" sparkle:deltaFrom="27" length="827654" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4+l2s7wrepgkNsR8kCu4zB9X8YNEQ0FngzO9YOYX1sF4VDq0cPzaSM2NzL3CRxnFfPSuTh6pUqfdcSNfJktODQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead29-25.delta" sparkle:deltaFrom="25" length="1060370" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="OMxOcwCtqRuetgq3weK4LaRzPHBRwpM2+bXi9T4m6PtAshwItgQFvy3sfzVQ+0QxESmZf4QlGqAPGoZ3w/+2Aw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead29-24.delta" sparkle:deltaFrom="24" length="1105402" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="T29cG3uFtzrJ2PWhoI5Q2a3WtMXFaQH56bRQYA+jf2gfyPO2JcqYct6pyjsDZK3zWOKZE0QSQTF96YXeeh5QCg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.5.1</title>
             <pubDate>Thu, 10 Sep 2026 14:14:16 -0700</pubDate>
             <sparkle:version>28</sparkle:version>
@@ -130,32 +148,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead24-21.delta" sparkle:deltaFrom="21" length="1520714" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ysFbHm5BzBHQeJB31aNGQeNCkFCZFXEKNrS1B7Fw2Rm3tDvWB5edljV0WjliNzFFA/YHJibWWXzrAWfNEHglDA=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead24-20.delta" sparkle:deltaFrom="20" length="1780014" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZILRoqulCwR1ZNJHNuGe70ih+NnbNh1MX3AR8inOeL9vcIHaw0tWOib6ln8y2XvtCsb7TBVKBbIwoQbROwegBg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead24-19.delta" sparkle:deltaFrom="19" length="1850986" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="NE/UrYtKX5YFZB3rdW6H4W2sXl3mzYbcF+KBBUeBmIasTzH/WsWf/YVtGTwH5W1y3VfV+Hyw5rtp+a89BqviBg=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.4.2</title>
-            <pubDate>Thu, 27 Aug 2026 11:48:47 -0700</pubDate>
-            <sparkle:version>23</sparkle:version>
-            <sparkle:shortVersionString>1.4.2</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.4.2</h3><ul>
-<li>Alerts sound different from one another. Overhead used one sound for all ten kinds, so an emergency squawk and a first sighting arrived indistinguishable: an emergency is its own sound now, a fly-over gets the shortest one there is because it is the alert you most need to hear from another room, and a first sighting or rare visitor gets a third. Everything else keeps the standard alert sound</li>
-<li>Four sounds made for this app join the fourteen macOS ships: Blip, a single radar return and the shortest thing in the list at a tenth of a second; Ident, the two-tone a transponder sends; Sweep, something detected and closing; and Contact, two soft notes for a first sighting</li>
-<li>Any sound you drop into your own Library/Sounds folder shows up in the list too, which is how custom alert sounds have always worked on the Mac</li>
-<li>Which sound goes in each of the three slots is yours to pick. Settings previews the choice as you make it, and one switch puts them all back to a single sound</li>
-<li>Records gains Lowest overhead: the lowest an aircraft has been when it actually came over you, rather than the lowest reading anywhere in the search circle. Those are different facts, and near an airport the second one always belongs to something on short final miles away</li>
-<li>It needs the height at the moment of closest approach, which was not being kept, so this record starts empty and fills over a day or two</li>
-<li>Forty-eight more aircraft types have names. A real logbook had 103 designators arriving nameless, so the common ones are named now: Cessna Stationairs and Skylanes, the Kodiak, the Husky, the Citabria, the Hawker 800 and the rest</li>
-<li>Five helicopters were being drawn with wings, among them the Hughes 500 that turned out to be the lowest thing ever to pass overhead here</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.2.zip" length="8305720" type="application/octet-stream" sparkle:edSignature="xsrIvw7+XfRxNawpUwmJfiSEiQQyDz5zSFEpLUrJ9pGI5TokhGMFPhEonPwAPoNmx3+yRfQwdWcX0nYZaGuzDw=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead23-22.delta" sparkle:deltaFrom="22" length="618646" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VLzn4w5HIIQsF9Rd0KK5FRzxj+PRBS/zGDcx8KEHpJTfNbXvoVqSagVR2FnR5hKUdenKBwGGjtwuwPPQE9gODA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead23-21.delta" sparkle:deltaFrom="21" length="1047842" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c9GPtC2Dqe/CzDCpO56V148qLuNsoPX7yJrh0NO/U9I7YmIbQcKi4KZRVIhXGykN+UKmiwR5knyUZF9o9HAXCg=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead23-20.delta" sparkle:deltaFrom="20" length="1469210" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="uXP8qlMBaa3FvEenP14BGVWhe642bXAV6v/f9nXbl0aqO844gdS9b5E9HjJ60MuPPYtgNseJOuh6TmumlrFABQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead23-19.delta" sparkle:deltaFrom="19" length="1548366" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="k9VkdZ+KVEfdNuwr7DAlNRiQS4sKFkxTB4wwDhDqWoYcl6SxvnNAqVOxaXP/Ez8OSdkXYD3c+EbSg3jQPmxuBw=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead23-18.delta" sparkle:deltaFrom="18" length="1589410" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="cLFIx1J0PJ4sNux8R101xIb4A++lSb4upY0FiBcWVBrBASyy08LCc8PdTsvICRvWQ3/AVaC7LBA+vCTMuyrtBg=="/>
             </sparkle:deltas>
         </item>
     </channel>

@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.5.2 — 2026-09-10
+- Send Support Report. Help → Send Support Report… opens a sheet: say what went wrong, add your email if you would like a reply, press Send, and the report from 1.5.1 goes straight to Bruce with your note, no mail program needed. Show Report opens exactly what would be sent first, and Save Instead keeps the file on disk to send another way. Nothing is sent until you press Send, and the report still holds no location and no addresses
+
 ## 1.5.1 — 2026-09-10
 - A support report. Help → Save Support Report… writes one text file with the app's state and its recent log: which data source is answering, outages and recoveries, alerts fired, update checks, permissions, and window events. It holds no location, no addresses and nothing from the logbook beyond its size. The log itself lives at ~/Library/Logs/Overhead/Overhead.log, capped at a megabyte with one previous copy kept, and every line also reaches Console under the subsystem com.elgort.overhead
 
