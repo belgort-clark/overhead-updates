@@ -1,5 +1,10 @@
 # Overhead release history
 
+## 1.5.3 — 2026-09-11
+- Get Aircraft Overhead answers in a sentence as well as a list. Asked from Siri or from Spotlight it used to return only the list of aircraft, which those show as nothing at all; it now says how many are up and names the nearest, with its type, distance and altitude. Shortcuts still get the list
+- Intents write to the support log: what was asked, what came back, and why it failed if it did
+- Fixed: on macOS 27 the search radius control in the toolbar showed no value, just an empty capsule with two chevrons. The toolbar there gives menu items an icon-only style and the old control had only words to show. It is a menu with its own label now, and reads "25 nm" as it always did
+
 ## 1.5.2 — 2026-09-10
 - Send Support Report. Help → Send Support Report… opens a sheet: say what went wrong, add your email if you would like a reply, press Send, and the report from 1.5.1 goes straight to Bruce with your note, no mail program needed. Show Report opens exactly what would be sent first, and Save Instead keeps the file on disk to send another way. Nothing is sent until you press Send, and the report still holds no location and no addresses
 
