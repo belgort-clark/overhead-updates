@@ -3,6 +3,24 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.5.4</title>
+            <pubDate>Sun, 13 Sep 2026 10:48:22 -0700</pubDate>
+            <sparkle:version>31</sparkle:version>
+            <sparkle:shortVersionString>1.5.4</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.5.4</h3><ul>
+<li>Two switches for fun, in Settings → General → Fun, both off unless you turn them on. Radio callsigns shows Speedbird 283 rather than BAW283, the names airlines use on the air, wherever a callsign appears in the window; airlines Overhead does not know keep their codes, and widgets keep them too. 1962 scope puts the glass of an old tube in front of the Radar Scope: scanlines, phosphor bloom, a vignette and a faint flicker, which stops with Reduce Motion</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.5.4.zip" length="8727264" type="application/octet-stream" sparkle:edSignature="id7hvuKa25MUx+ltGl5sI+rFejNPGmGgVCjrbYVtibN3s9rMwJtXtPvimpKLqMmFIXjAK+Q9sDxQTfn0xlzNCQ=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead31-30.delta" sparkle:deltaFrom="30" length="625030" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="JmEcomToZURCSRKv9bkJg62oGjdps19O6s/xSlgPI6nldtB9S2tf+T48HUVO0eKEsUwEujan1ahLH2SpVkIjDw=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead31-29.delta" sparkle:deltaFrom="29" length="678558" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dwKsau00sJo8JMgjNBFhT6xAVciukMHArlYUZo8KDMvZP8PFR0bgxNfVdzxlKPZebuEEosv3SKdMV6Pef2WeAQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead31-28.delta" sparkle:deltaFrom="28" length="759610" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ttldgkGOYL+U+IVpOkVOhTLyR8RY+j4cIO3EEKGAkPtr29lL3EXf1HC6za38zJ0zAKZFDo+fOhmB8OsjDIztAg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead31-27.delta" sparkle:deltaFrom="27" length="935010" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="c2QQxnMFsnk8hA5XsELiB5s2QNPr1tW8PKbUQ/e3dSn4zE3fCUCqihdJlf1/U7MVff9y6TqvTl595aBPhesICA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.5.3</title>
             <pubDate>Fri, 11 Sep 2026 08:24:09 -0700</pubDate>
             <sparkle:version>30</sparkle:version>
@@ -99,28 +117,6 @@
 </ul>
 ]]></description>
             <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.5.zip" length="8507859" type="application/octet-stream" sparkle:edSignature="esQOD9ORNIiGt/sOU7/MJXVYaJ7+dU8/JlE5ky7iqFiWDpv5NbS5sUZqsF1kE+AbTVJAbONio/UoBTg0ZftgDA=="/>
-        </item>
-        <item>
-            <title>1.4.4</title>
-            <pubDate>Sat, 29 Aug 2026 11:40:05 -0700</pubDate>
-            <sparkle:version>25</sparkle:version>
-            <sparkle:shortVersionString>1.4.4</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.4.4</h3><ul>
-<li>Overhead says when it has updated. A line at the foot of the sidebar tells you, with a button that opens the release notes, and it goes for good once you have read it or dismissed it. Sparkle shows the notes while it installs and they vanish with that window, so until now nothing in the app said what had changed after the fact</li>
-<li>Fixed: cloud and visibility could go missing for ten minutes at a time. The clock that decides when to ask again was started when the request went out rather than when it came back, so one failed fetch bought ten minutes with nothing on screen and nothing trying again. Changing where you are watching clears the conditions first, on purpose, so that a single miss just after moving left the capsule empty rather than briefly stale. A failure is retried in a minute now, and only one request is allowed in flight at a time</li>
-<li>Fixed: the logbook could name a finance company as an operator. A Diamond DA40 was filed under "Wingsleasing", and the lowest aircraft ever to come over under "Shelby Patrick B Trustee". Both hold title rather than fly anything. The check that already refused those names only ever protected airliners, because it fell back to the registered owner whenever the callsign was not an airline's, which is every light aircraft. The logbook also stores the name it was given at the time, so rows filed before the check existed kept theirs; those are filtered now as well, and a record giving only the registration and the type is telling the truth</li>
-<li>Finding an ATC feed takes fewer steps. The instructions taught the long way round, downloading a playlist file and opening it from Finder, and offered the short way as an afterthought. Right-click a feed's <strong>launches your MP3 player</strong> icon, choose <strong>Copy Link</strong>, and Overhead spots it on your clipboard the moment you come back: that is steps 1 and 2 now. The file route is still there, still the one that arrives already named, and in Safari <strong>Open "safe" files after downloading</strong> makes it a single click</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.4.zip" length="8503706" type="application/octet-stream" sparkle:edSignature="edFpDdjPLY4atxPva9ltGl49ACJ6PfrXI97ItG8g9jakNE8VZ6m5mvY/KSNc51+qINb6bCp2W37arhVfLNdjCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead25-24.delta" sparkle:deltaFrom="24" length="585874" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="yeiB/4zfazJnN0Z92WI+VZfddK9ldPpWbdv8inoVXry3B/4FjGUKCF7yJq0tT8Ne5b550A9myFQ1ZQSnwrSSAA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead25-23.delta" sparkle:deltaFrom="23" length="1106598" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nf8PH3jhrmy13SHzsNEp7V7YOKKj64opRApS2xD/t1SxTtH1oQQ239W7CP2CCAE5zyqXm0RSXrmIDpLaxCkHBQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead25-22.delta" sparkle:deltaFrom="22" length="1231566" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jx8YD9P9SejKd1ujNDdGvLsTvaQWW52PF9U6IPJ/EkQrMEyhQh27Sqk3eoldV5r0PNRNjyjgyYnj2tqEHQ+bAA=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead25-21.delta" sparkle:deltaFrom="21" length="1569542" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="N9JM3a56soXlJ9iwEWL9c2YFZu0axd8nXNyBRJ86yf44me0BKjBL/zLFGLoFTnjpmK9kmmY9fjFu63BX2O46Cg=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead25-20.delta" sparkle:deltaFrom="20" length="1826666" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2vX/+ztETwCjVQSQnSeUyJ6mzcDlz3ZFUnV8mSuXG86lrBtRIcB0OAxd/UND2DC99knBVaXca8Jxl3naDC2aDg=="/>
-            </sparkle:deltas>
         </item>
     </channel>
 </rss>

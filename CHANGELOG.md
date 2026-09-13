@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.5.4 — 2026-09-13
+- Two switches for fun, in Settings → General → Fun, both off unless you turn them on. Radio callsigns shows Speedbird 283 rather than BAW283, the names airlines use on the air, wherever a callsign appears in the window; airlines Overhead does not know keep their codes, and widgets keep them too. 1962 scope puts the glass of an old tube in front of the Radar Scope: scanlines, phosphor bloom, a vignette and a faint flicker, which stops with Reduce Motion
+
 ## 1.5.3 — 2026-09-11
 - Get Aircraft Overhead answers in a sentence as well as a list. Asked from Siri or from Spotlight it used to return only the list of aircraft, which those show as nothing at all; it now says how many are up and names the nearest, with its type, distance and altitude. Shortcuts still get the list
 - Intents write to the support log: what was asked, what came back, and why it failed if it did
