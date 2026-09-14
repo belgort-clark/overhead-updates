@@ -1,5 +1,9 @@
 # Overhead release history
 
+## 1.5.5 — 2026-09-14
+- Fixed: the markers on the map rocked in place, a pixel one way and back the next frame, about every second, whether or not anything was selected. MapKit re-places its markers on a rhythm of its own even while the map sits still, and each pass could round a marker to a different pixel. Measured frame by frame from a user's recording: fifteen of those flicks in twelve seconds. The markers and their labels are drawn by Overhead now, at points that change only when the camera or the aircraft moves, and the same measurement on the fixed build finds none. Clicking, the context menu and VoiceOver work as before, and the markers now glide between refreshes rather than jumping
+- Fixed: the map view no longer re-lays itself out for camera callbacks that report the camera exactly where it was
+
 ## 1.5.4 — 2026-09-13
 - Two switches for fun, in Settings → General → Fun, both off unless you turn them on. Radio callsigns shows Speedbird 283 rather than BAW283, the names airlines use on the air, wherever a callsign appears in the window; airlines Overhead does not know keep their codes, and widgets keep them too. 1962 scope puts the glass of an old tube in front of the Radar Scope: scanlines, phosphor bloom, a vignette and a faint flicker, which stops with Reduce Motion
 

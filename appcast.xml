@@ -3,6 +3,26 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.5.5</title>
+            <pubDate>Mon, 14 Sep 2026 16:12:24 -0700</pubDate>
+            <sparkle:version>32</sparkle:version>
+            <sparkle:shortVersionString>1.5.5</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.5.5</h3><ul>
+<li>Fixed: the markers on the map rocked in place, a pixel one way and back the next frame, about every second, whether or not anything was selected. MapKit re-places its markers on a rhythm of its own even while the map sits still, and each pass could round a marker to a different pixel. Measured frame by frame from a user's recording: fifteen of those flicks in twelve seconds. The markers and their labels are drawn by Overhead now, at points that change only when the camera or the aircraft moves, and the same measurement on the fixed build finds none. Clicking, the context menu and VoiceOver work as before, and the markers now glide between refreshes rather than jumping</li>
+<li>Fixed: the map view no longer re-lays itself out for camera callbacks that report the camera exactly where it was</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.5.5.zip" length="8767442" type="application/octet-stream" sparkle:edSignature="xy0H4nf8Gnl8MP9GM/+/bayQuu+V8GAU/QNdZA3qhTJiKjBxAdjeHH/Uygoumi79e1AJoPs3dGXW8fyFSZEOBw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead32-31.delta" sparkle:deltaFrom="31" length="637414" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="VDmwHJX0GHkkPfYctNRkeSzTOqYXQTMCDgz6S2MVnM2CISj3hiYANRkPYZnNtJryZGmwLT/NsO3/zXDjqXnNBA=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead32-30.delta" sparkle:deltaFrom="30" length="778626" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="dHGAGS1MPI+7jK8ZMbe+PPlXreru/RZ/YHsBDb2BmBx1WO7oeI1sMX1LrVsTg9VtkeuyUgUoA7/+pE0h1gqpCg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead32-29.delta" sparkle:deltaFrom="29" length="823574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WMbTfc2Sj9m3RUMUH+Z4cB4OOfnGyK2Jv+LYmDeP7bynvPcaVoyKw1r3dVB4z77Pnj5lTaYpT1dYgQtuLVJaBg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead32-28.delta" sparkle:deltaFrom="28" length="893454" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="00TD2BwiPLhPcbDT4fFERTpa5YwVs4Ko8yaStsulFlrrVXUMFLuitQmchU/0mun/u6D27TS4BMgfec0V82F6BQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead32-27.delta" sparkle:deltaFrom="27" length="1037466" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Z4qp+dxIkQcA9UnNmwTCqZ/tFE3YKmxeQqm0ELqGkdvyLaE0kb50LWUri0OyyTLfYUuaqkeQ64gAbTtlcs7HBA=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.5.4</title>
             <pubDate>Sun, 13 Sep 2026 10:48:22 -0700</pubDate>
             <sparkle:version>31</sparkle:version>
@@ -105,18 +125,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead27-23.delta" sparkle:deltaFrom="23" length="1246422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0/VMCFMSPjeSaEx/Kh+o75a1gbgmQZVLya3fmz5sHUAP/r2LV5kjNoQSXFstjOQtQLeFtD9/t2M5DVT3Fle6DQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead27-22.delta" sparkle:deltaFrom="22" length="1363954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nHnQFaBB6xRnM3lwAVadc+b8X/DPZKdhpVxBccpJRKW6LyPZGAqYElB2Ix7WjlX/W4tnVQhgKWLPBWHmLlHyBw=="/>
             </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.4.5</title>
-            <pubDate>Mon, 31 Aug 2026 08:24:29 -0700</pubDate>
-            <sparkle:version>26</sparkle:version>
-            <sparkle:shortVersionString>1.4.5</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.4.5</h3><ul>
-<li>Fixed: Overhead could stop responding after being left running, badly enough to need Force Quit. Every aircraft on the map carries its callsign as a label, and while the window sat behind other windows macOS queued that labelling instead of drawing it. Left overnight the app reached 2.9 GB, and bringing the window back asked it to do the whole night's labelling in one go, which took it past 21 GB and pinned a processor for a minute and a half. The aircraft and their trails now leave the map while no window is on screen and return when one is, so there is nothing to catch up on. Nothing else stops: the five-second refresh, the alerts, the logbook and the widgets are the reason to leave it running in the first place</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.4.5.zip" length="8507859" type="application/octet-stream" sparkle:edSignature="esQOD9ORNIiGt/sOU7/MJXVYaJ7+dU8/JlE5ky7iqFiWDpv5NbS5sUZqsF1kE+AbTVJAbONio/UoBTg0ZftgDA=="/>
         </item>
     </channel>
 </rss>
