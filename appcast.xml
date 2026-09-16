@@ -3,6 +3,26 @@
     <channel>
         <title>Overhead</title>
         <item>
+            <title>1.5.6</title>
+            <pubDate>Wed, 16 Sep 2026 07:34:55 -0700</pubDate>
+            <sparkle:version>33</sparkle:version>
+            <sparkle:shortVersionString>1.5.6</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+            <description><![CDATA[<h3>Overhead 1.5.6</h3><ul>
+<li>Fixed: reopening Overhead from the Dock, a widget or a notification after its window had been closed could bring back a window with a solid dark band across the top, with the sidebar and map squeezed in below it. That window now looks the same as the one it stands in for</li>
+<li>Fixed: the log attached to Send Support Report could arrive padded with a long stretch of nothing at the start if the file had been emptied while Overhead was running. It arrives clean now</li>
+</ul>
+]]></description>
+            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.5.6.zip" length="8832080" type="application/octet-stream" sparkle:edSignature="xPcA1XQEWehKsVIUJ6ZpzSaTFI9pGX99Go6AT19DYQaYW6lF6NjN9qUOKw8GNWOZQgz5+SVKXPRePyFLIP7WAA=="/>
+            <sparkle:deltas>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead33-32.delta" sparkle:deltaFrom="32" length="2678838" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="lu10POt/6hRH2LD0Hx8prFoE1NjCB21e2jt+kx0LagXq1crOHmUF8u6R3/JtAjknlics9rRmyHNhAkpsIXUxAg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead33-31.delta" sparkle:deltaFrom="31" length="2721614" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="2SDHy71gb2g6P+AMzCtIWzJ0jkIDneRwqsDppoyLuC8PblOEkVYzG5b9KQ+SdlVHxLUeUpC3ccY9oXCpmNV2DQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead33-30.delta" sparkle:deltaFrom="30" length="2750670" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="kNYaNpJFs04jXCGSZNt5AqTMrjCnCy+ejjtimqiKsE+Zc7IxmEKyj0WQcGY60X324WtWGaQxYlTNzr2Fpl0XAQ=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead33-29.delta" sparkle:deltaFrom="29" length="2773686" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="hieZxZg0rOtVs6dYe5zyiK3hJve2hAjL45QDzFCSycIY14CcgFulKnxdNuY15JSJXAaFip/fJW1qqZMwe4gtBg=="/>
+                <enclosure url="https://www.seeoverhead.app/updates/Overhead33-28.delta" sparkle:deltaFrom="28" length="2796854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ZcGqwnuK/rP1iqEslMXlZuQDSayPOp7PeXlgnbNNZAHsWLqg864CF+DtjmffPQXynhm438Cm+Cp6R2futq0XAw=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
             <title>1.5.5</title>
             <pubDate>Mon, 14 Sep 2026 16:12:24 -0700</pubDate>
             <sparkle:version>32</sparkle:version>
@@ -94,36 +114,6 @@
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead28-25.delta" sparkle:deltaFrom="25" length="1008734" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="/2KKaJWWHvoaSAslgYUui9jFXJMX9wrGmbp/BPfIGP9Oe4XkLvHoiv9SYV1dut82CoQsxG3DKTpoJSnHzjn4CQ=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead28-24.delta" sparkle:deltaFrom="24" length="1063074" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="e3tz5RA6sbXt8uypIXBi3HPhV0YGKxCq9e0NGuTT/k22/OWKL4Mrl3FXHKNkyIZG5l0PYRWtsErJsW/0IKi3Cg=="/>
                 <enclosure url="https://www.seeoverhead.app/updates/Overhead28-23.delta" sparkle:deltaFrom="23" length="1330390" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Ma06TyhKWMtKnclRLbOS9Dn4KlgqniYgOO9y0VusmI98f4Fx9tX8TjYnzEN2aGfB4ofYRq6dI79PDtuaIEJ1CQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.5.0</title>
-            <pubDate>Wed, 02 Sep 2026 14:52:02 -0700</pubDate>
-            <sparkle:version>27</sparkle:version>
-            <sparkle:shortVersionString>1.5.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-            <description><![CDATA[<h3>Overhead 1.5.0</h3><ul>
-<li>The sky as a radar scope. Map Style has a fifth choice, Radar Scope: every aircraft in the air plotted at its true bearing and distance from the place you are watching, on range rings marked in nautical miles, under a sweep. It is the app's own icon, brought into the window. The map answers what an aircraft is doing; the scope answers where to look</li>
-<li>Clicking a blip opens the same card the map shows, photo and arrival line included, and the rings move over to make room for it rather than hiding behind it. The sidebar carries the rest, exactly as it does for the map</li>
-<li>Only what is flying appears on the scope. Aircraft parked at the field down the road are not in the sky, and at ten miles they sat on top of one another at the gate; the readout counts them so nobody wonders where they went</li>
-<li>Callsigns sit on leader lines, the way a controller's data block hangs off its target, and when two would collide the label moves and the aircraft does not: it tries the eight compass directions, then the eight again on a longer leader. At everyday ranges nothing moves. At a hundred miles the Seattle to Portland corridor fans out cleanly</li>
-<li>The scope follows Color Aircraft by Altitude. With it on, the map's altitude colours; with it off, one colour, the scope's own green. An emergency is red either way</li>
-<li>In scope mode the toolbar keeps only what still applies. Center on Home, the radius ring, Fit All, Go to Place and Watch This Spot drive a camera the scope does not have, so they step aside and come back with the map. The menu items stay, greyed, so their shortcuts remain where you learned them. Map Style stays, because it is the way back</li>
-<li>The sweep is drawn by Core Animation on the render server rather than by the app, so nothing the app does can make it stutter, and it stops when the window is hidden or Reduce Motion is on</li>
-<li>Fixed: every refresh held the app up for a tenth of a second. Six settings were written one after another and each one made every view re-check itself; they go through in one go now, and a refresh takes nine milliseconds instead of up to a hundred and thirteen. The map had been hiding this behind its own rendering; the scope showed it</li>
-<li>Fixed: the logbook did the same thing one layer down, announcing a change for every one of a dozen writes it made per refresh, which dropped a frame on nearly every update. It announces once now</li>
-<li>Fixed: Show Search Radius had picked up a second shortcut, Shift-Command-R, which hid its own Shift-Command-K and collided with Show Flight Routes</li>
-<li>Updates are small again. 1.4.5 arrived as a full download because the update tool refused the framework's file permissions; the build sets them the way it wants now</li>
-<li>Fixed: in the light appearance the aircraft card lost its contrast over anything dark. Over the scope it came out mid-grey with dark-grey labels on it, and over satellite imagery it went green-grey. On the scope the card is dark in either appearance, and on the map it sits on an opaque layer, as the weather capsules already did, so it reads the same wherever it lands</li>
-<li>Fixed: on the scope, VoiceOver read the card's watchlist, pin and close buttons as "Radar scope"</li>
-</ul>
-]]></description>
-            <enclosure url="https://www.seeoverhead.app/updates/Overhead-1.5.0.zip" length="8585356" type="application/octet-stream" sparkle:edSignature="ut3DyjM2bnXGlC+wX6Omk1O5G2yqq4p7Wa/fJzZWPi46uOXrrX1BxbJx+DQK4BcRw8hQr3hZ2wCYlaGa5OSgCg=="/>
-            <sparkle:deltas>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead27-25.delta" sparkle:deltaFrom="25" length="845342" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="QnX5LTDtQWUH4Y51GFTEUz8LF4VarJEDdjPfo+dz1BAB4uTPe5FQhC1M7+A1nGCk4B6tLECzkvo9iLw2iS50CQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead27-24.delta" sparkle:deltaFrom="24" length="898574" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="AHWj2OGbIJVoIH9ojOqYU+u4r+hoA84tL845wuyAhAzoJQxPOYOGHTtLTvy/RIiwx+Ra2ZaJ11qAjkxSkEcCAg=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead27-23.delta" sparkle:deltaFrom="23" length="1246422" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="0/VMCFMSPjeSaEx/Kh+o75a1gbgmQZVLya3fmz5sHUAP/r2LV5kjNoQSXFstjOQtQLeFtD9/t2M5DVT3Fle6DQ=="/>
-                <enclosure url="https://www.seeoverhead.app/updates/Overhead27-22.delta" sparkle:deltaFrom="22" length="1363954" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="nHnQFaBB6xRnM3lwAVadc+b8X/DPZKdhpVxBccpJRKW6LyPZGAqYElB2Ix7WjlX/W4tnVQhgKWLPBWHmLlHyBw=="/>
             </sparkle:deltas>
         </item>
     </channel>
