@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.5.7 — 2026-09-21
+- Fixed: after a visit to the Radar Scope, the map that came back could stop listening. A new search radius changed the number in the title but not the ring or the view, a new map style did nothing, and the aircraft themselves vanished from the map while the sidebar still listed them, until Overhead was relaunched. The map now keeps up with every change, however many times you switch
+
 ## 1.5.6 — 2026-09-16
 - Fixed: reopening Overhead from the Dock, a widget or a notification after its window had been closed could bring back a window with a solid dark band across the top, with the sidebar and map squeezed in below it. That window now looks the same as the one it stands in for
 - Fixed: the log attached to Send Support Report could arrive padded with a long stretch of nothing at the start if the file had been emptied while Overhead was running. It arrives clean now
