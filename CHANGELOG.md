@@ -1,5 +1,8 @@
 # Overhead release history
 
+## 1.5.8 — 2026-11-17
+- ATC audio now opens in your browser. LiveATC, which carries the feeds almost everyone used here, stopped letting other apps play its streams in November, and every feed inside Overhead had been failing since. Rather than keep a player that cannot play, Sky → Listen to ATC Nearby (⇧⌘U) opens the airport closest to home at liveatc.net, where their own player works. The headphones button has left the toolbar, and Overhead no longer offers to open .pls playlist files. Feeds you had saved are left on disk rather than thrown away, though nothing in the app shows them now
+
 ## 1.5.7 — 2026-09-21
 - Fixed: after a visit to the Radar Scope, the map that came back could stop listening. A new search radius changed the number in the title but not the ring or the view, a new map style did nothing, and the aircraft themselves vanished from the map while the sidebar still listed them, until Overhead was relaunched. The map now keeps up with every change, however many times you switch
 
